@@ -1,0 +1,4 @@
+C:\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPSharePoint\bin\Debug\RPPSharePoint.dll
+C:\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPSharePoint\bin\Debug\RPPSharePoint.pdb
+C:\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPSharePoint\obj\Debug\RPPSharePoint.dll
+C:\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPSharePoint\obj\Debug\RPPSharePoint.pdb

@@ -1,0 +1,43 @@
+2384_044_040 Valor de numero no valido
+2390_002_002 Valor de numero no valido
+2399_009_001 El renglon no cuenta con los campos adecuados
+2419_023_024 Valor de numero no valido
+2421_006_006 Valor de numero no valido
+2431_081_004 Valor de numero no valido
+2434_005_005 Valor de numero no valido
+2434_006_006 Valor de numero no valido
+2434_045_041 Valor de numero no valido
+2450_019_000 Valor de numero no valido
+2452_007_007 Valor de numero no valido
+2452_013_013 Valor de numero no valido
+2459_004_004 Valor de numero no valido
+2466_004_004 Valor de numero no valido
+2466_027_026 Valor de numero no valido
+2466_028_026 Valor de numero no valido
+2468_035_034 El renglon no cuenta con los campos adecuados
+2468_036_035 El renglon no cuenta con los campos adecuados
+2468_040_039 El renglon no cuenta con los campos adecuados
+2468_044_043 El renglon no cuenta con los campos adecuados
+2468_046_045 El renglon no cuenta con los campos adecuados
+2473_014_014 Valor de numero no valido
+2473_029_029 Valor de numero no valido
+2473_030_030 Valor de numero no valido
+2476_024_024 Valor de numero no valido
+2479_045_045 Valor de numero no valido
+2480_015_016 Valor de numero no valido
+2481_014_014 Valor de numero no valido
+2494_106_036 Valor de numero no valido
+2508_034_023 El renglon no cuenta con los campos adecuados
+2508_036_025 El renglon no cuenta con los campos adecuados
+2511_003_003 Valor de numero no valido
+2513_109_036 Valor de numero no valido
+2518_012_011 El renglon no cuenta con los campos adecuados
+2519_053_028 El renglon no cuenta con los campos adecuados
+2519_056_031 El renglon no cuenta con los campos adecuados
+2519_072_043 El renglon no cuenta con los campos adecuados
+2523_082_029 Valor de numero no valido
+2531_042_035 Valor de numero no valido
+2536_027_021 Valor de numero no valido
+2537_021_013 Valor de fecha y hora no valido
+2540_001_001 Valor de numero no valido
+2540_019_019 El renglon no cuenta con los campos adecuados

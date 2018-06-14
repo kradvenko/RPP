@@ -1,0 +1,43 @@
+Libro_2384\Libro_2384_044_040.out - El valor númerico en el campo: Etiqueta_08_02 del documentoLibro_2384\Libro_2384_044_040.out es inválido. valor actual: 
+Libro_2390\Libro_2390_002_002.out - El valor númerico en el campo: Etiqueta_08_02 del documentoLibro_2390\Libro_2390_002_002.out es inválido. valor actual: 
+Libro_2399\Libro_2399_009_001.out - El renglon no cuenta con los campos adecuados. Etiqueta:Etiqueta_45
+Libro_2419\Libro_2419_023_024.out - El valor númerico en el campo: Etiqueta_08_01 del documentoLibro_2419\Libro_2419_023_024.out es inválido. valor actual: 
+Libro_2421\Libro_2421_006_006.out - El valor númerico en el campo: Etiqueta_08_02 del documentoLibro_2421\Libro_2421_006_006.out es inválido. valor actual: 
+Libro_2431\Libro_2431_081_004.out - El valor númerico en el campo: Etiqueta_08_02 del documentoLibro_2431\Libro_2431_081_004.out es inválido. valor actual: 
+Libro_2434\Libro_2434_005_005.out - El valor númerico en el campo: Etiqueta_09 del documentoLibro_2434\Libro_2434_005_005.out es inválido. valor actual: 
+Libro_2434\Libro_2434_006_006.out - El valor númerico en el campo: Etiqueta_09 del documentoLibro_2434\Libro_2434_006_006.out es inválido. valor actual: 
+Libro_2434\Libro_2434_045_041.out - El valor númerico en el campo: Etiqueta_08_02 del documentoLibro_2434\Libro_2434_045_041.out es inválido. valor actual: 
+Libro_2450\Libro_2450_019_000.out - El valor númerico en el campo: Etiqueta_45 del documentoLibro_2450\Libro_2450_019_000.out es inválido. valor actual: 
+Libro_2452\Libro_2452_007_007.out - El valor númerico en el campo: Etiqueta_38 del documentoLibro_2452\Libro_2452_007_007.out es inválido. valor actual: 
+Libro_2452\Libro_2452_013_013.out - El valor númerico en el campo: Etiqueta_38 del documentoLibro_2452\Libro_2452_013_013.out es inválido. valor actual: 
+Libro_2459\Libro_2459_004_004.out - El valor númerico en el campo: Etiqueta_09 del documentoLibro_2459\Libro_2459_004_004.out es inválido. valor actual: 
+Libro_2466\Libro_2466_004_004.out - El valor númerico en el campo: Etiqueta_09 del documentoLibro_2466\Libro_2466_004_004.out es inválido. valor actual: 
+Libro_2466\Libro_2466_027_026.out - El valor númerico en el campo: Etiqueta_09 del documentoLibro_2466\Libro_2466_027_026.out es inválido. valor actual: 
+Libro_2466\Libro_2466_028_026.out - El valor númerico en el campo: Etiqueta_09 del documentoLibro_2466\Libro_2466_028_026.out es inválido. valor actual: 
+Libro_2468\Libro_2468_035_034.out - El renglon no cuenta con los campos adecuados. Etiqueta:Etiqueta_29
+Libro_2468\Libro_2468_036_035.out - El renglon no cuenta con los campos adecuados. Etiqueta:Etiqueta_30
+Libro_2468\Libro_2468_040_039.out - El renglon no cuenta con los campos adecuados. Etiqueta:Etiqueta_28
+Libro_2468\Libro_2468_044_043.out - El renglon no cuenta con los campos adecuados. Etiqueta:Etiqueta_29
+Libro_2468\Libro_2468_046_045.out - El renglon no cuenta con los campos adecuados. Etiqueta:Etiqueta_27
+Libro_2473\Libro_2473_014_014.out - El valor númerico en el campo: Etiqueta_08_02 del documentoLibro_2473\Libro_2473_014_014.out es inválido. valor actual: 
+Libro_2473\Libro_2473_029_029.out - El valor númerico en el campo: Etiqueta_08_02 del documentoLibro_2473\Libro_2473_029_029.out es inválido. valor actual: 
+Libro_2473\Libro_2473_030_030.out - El valor númerico en el campo: Etiqueta_08_02 del documentoLibro_2473\Libro_2473_030_030.out es inválido. valor actual: 
+Libro_2476\Libro_2476_024_024.out - El valor númerico en el campo: Etiqueta_08_02 del documentoLibro_2476\Libro_2476_024_024.out es inválido. valor actual: 
+Libro_2479\Libro_2479_045_045.out - El valor númerico en el campo: Etiqueta_09 del documentoLibro_2479\Libro_2479_045_045.out es inválido. valor actual: 
+Libro_2480\Libro_2480_015_016.out - El valor númerico en el campo: Etiqueta_09 del documentoLibro_2480\Libro_2480_015_016.out es inválido. valor actual: 
+Libro_2481\Libro_2481_014_014.out - El valor númerico en el campo: Etiqueta_09 del documentoLibro_2481\Libro_2481_014_014.out es inválido. valor actual: 
+Libro_2494\Libro_2494_106_036.out - El valor númerico en el campo: Etiqueta_08_02 del documentoLibro_2494\Libro_2494_106_036.out es inválido. valor actual: 
+Libro_2508\Libro_2508_034_023.out - El renglon no cuenta con los campos adecuados. Etiqueta:Etiqueta_30
+Libro_2508\Libro_2508_036_025.out - El renglon no cuenta con los campos adecuados. Etiqueta:Etiqueta_30
+Libro_2511\Libro_2511_003_003.out - El valor númerico en el campo: Etiqueta_08_02 del documentoLibro_2511\Libro_2511_003_003.out es inválido. valor actual: 
+Libro_2513\Libro_2513_109_036.out - El valor númerico en el campo: Etiqueta_08_02 del documentoLibro_2513\Libro_2513_109_036.out es inválido. valor actual: 
+Libro_2518\Libro_2518_012_011.out - El renglon no cuenta con los campos adecuados. Etiqueta:Etiqueta_27
+Libro_2519\Libro_2519_053_028.out - El renglon no cuenta con los campos adecuados. Etiqueta:Etiqueta_29
+Libro_2519\Libro_2519_056_031.out - El renglon no cuenta con los campos adecuados. Etiqueta:Etiqueta_30
+Libro_2519\Libro_2519_072_043.out - El renglon no cuenta con los campos adecuados. Etiqueta:Etiqueta_30
+Libro_2523\Libro_2523_082_029.out - El valor númerico en el campo: Etiqueta_09 del documentoLibro_2523\Libro_2523_082_029.out es inválido. valor actual: 
+Libro_2531\Libro_2531_042_035.out - El valor númerico en el campo: Etiqueta_08_02 del documentoLibro_2531\Libro_2531_042_035.out es inválido. valor actual: 
+Libro_2536\Libro_2536_027_021.out - El valor númerico en el campo: Etiqueta_09 del documentoLibro_2536\Libro_2536_027_021.out es inválido. valor actual: 
+Libro_2537\Libro_2537_021_013.out - El valor númerico en el campo: Etiqueta_09 del documentoLibro_2537\Libro_2537_021_013.out es inválido. valor actual: 
+Libro_2540\Libro_2540_001_001.out - El valor númerico en el campo: Etiqueta_09 del documentoLibro_2540\Libro_2540_001_001.out es inválido. valor actual: 
+Libro_2540\Libro_2540_019_019.out - El renglon no cuenta con los campos adecuados. Etiqueta:Etiqueta_33

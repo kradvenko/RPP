@@ -1,0 +1,5 @@
+c:\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPSharePoint\bin\Release\RPPSharePoint.dll
+c:\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPSharePoint\bin\Release\RPPSharePoint.pdb
+c:\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPSharePoint\obj\Release\RPPSharePoint.csprojResolveAssemblyReference.cache
+c:\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPSharePoint\obj\Release\RPPSharePoint.dll
+c:\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPSharePoint\obj\Release\RPPSharePoint.pdb

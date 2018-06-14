@@ -1,0 +1,231 @@
+Repositorio Sharepoint: http://servidors04/sitios/digitalizacion
+Directorio origen archivos OUT: \\192.168.137.39\Imagenes historico\datos
+Directorio origen archivos TIF: \\192.168.137.39\Imagenes historico\Imagenes
+
+9305 Archivos OUT procesados
+6562 Archivos TIF referenciados
+6509 Registros agregados en el Repositorio
+
+Listado de Incidencias
+----------------------
+2393_030_016 Archivo de imágen TIF referenciada no existe
+2393_039_023 Archivo de imágen TIF referenciada no existe
+2393_130_042 Archivo de imágen TIF referenciada no existe
+2393_029_029 Archivo de imágen TIF referenciada no existe
+2395_036_019 Archivo de imágen TIF referenciada no existe
+2397_029_027 Archivo de imágen TIF referenciada no existe
+2402_272_047 Archivo de imágen TIF referenciada no existe
+2408_086_038 Archivo de imágen TIF referenciada no existe
+2416_024_022 Archivo de imágen TIF referenciada no existe
+2442_002_002 Archivo de imágen TIF referenciada no existe
+2452_025_021 Archivo de imágen TIF referenciada no existe
+2463_002_002 Archivo de imágen TIF referenciada no existe
+2463_003_003 Archivo de imágen TIF referenciada no existe
+2463_025_024 Archivo de imágen TIF referenciada no existe
+2475_010_005 Archivo de imágen TIF referenciada no existe
+2475_016_005 Archivo de imágen TIF referenciada no existe
+2475_018_005 Archivo de imágen TIF referenciada no existe
+2478_044_035 Archivo de imágen TIF referenciada no existe
+2479_001_001 Archivo de imágen TIF referenciada no existe
+2485_047_021 Archivo de imágen TIF referenciada no existe
+2488_026_025 Archivo de imágen TIF referenciada no existe
+2488_027_025 Archivo de imágen TIF referenciada no existe
+2488_029_025 Archivo de imágen TIF referenciada no existe
+2488_030_025 Archivo de imágen TIF referenciada no existe
+2501_052_052 Archivo de imágen TIF referenciada no existe
+2506_008_008 Archivo de imágen TIF referenciada no existe
+2507_050_046 Archivo de imágen TIF referenciada no existe
+2507_053_048 Archivo de imágen TIF referenciada no existe
+2508_039_028 Archivo de imágen TIF referenciada no existe
+2508_040_028 Archivo de imágen TIF referenciada no existe
+2510_040_036 Archivo de imágen TIF referenciada no existe
+2513_115_040 Archivo de imágen TIF referenciada no existe
+2517_015_015 Archivo de imágen TIF referenciada no existe
+2524_029_025 Archivo de imágen TIF referenciada no existe
+2531_034_029 Archivo de imágen TIF referenciada no existe
+2531_035_029 Archivo de imágen TIF referenciada no existe
+2531_051_044 Archivo de imágen TIF referenciada no existe
+2533_265_009 Archivo de imágen TIF referenciada no existe
+2536_023_017 Archivo de imágen TIF referenciada no existe
+2536_036_028 Archivo de imágen TIF referenciada no existe
+2537_016_009 Archivo de imágen TIF referenciada no existe
+2537_017_009 Archivo de imágen TIF referenciada no existe
+2540_045_045 Archivo de imágen TIF referenciada no existe
+2384_044_040 Valor de numero no valido
+2390_002_002 Valor de numero no valido
+2399_009_001 El renglon no cuenta con los campos adecuados
+2419_023_024 Valor de numero no valido
+2421_006_006 Valor de numero no valido
+2431_081_004 Valor de numero no valido
+2434_005_005 Valor de numero no valido
+2434_006_006 Valor de numero no valido
+2434_045_041 Valor de numero no valido
+2450_019_000 Valor de numero no valido
+2452_007_007 Valor de numero no valido
+2452_013_013 Valor de numero no valido
+2459_004_004 Valor de numero no valido
+2466_004_004 Valor de numero no valido
+2466_027_026 Valor de numero no valido
+2466_028_026 Valor de numero no valido
+2468_035_034 El renglon no cuenta con los campos adecuados
+2468_036_035 El renglon no cuenta con los campos adecuados
+2468_040_039 El renglon no cuenta con los campos adecuados
+2468_044_043 El renglon no cuenta con los campos adecuados
+2468_046_045 El renglon no cuenta con los campos adecuados
+2473_014_014 Valor de numero no valido
+2473_029_029 Valor de numero no valido
+2473_030_030 Valor de numero no valido
+2476_024_024 Valor de numero no valido
+2479_045_045 Valor de numero no valido
+2480_015_016 Valor de numero no valido
+2481_014_014 Valor de numero no valido
+2494_106_036 Valor de numero no valido
+2508_034_023 El renglon no cuenta con los campos adecuados
+2508_036_025 El renglon no cuenta con los campos adecuados
+2511_003_003 Valor de numero no valido
+2513_109_036 Valor de numero no valido
+2518_012_011 El renglon no cuenta con los campos adecuados
+2519_053_028 El renglon no cuenta con los campos adecuados
+2519_056_031 El renglon no cuenta con los campos adecuados
+2519_072_043 El renglon no cuenta con los campos adecuados
+2523_082_029 Valor de numero no valido
+2531_042_035 Valor de numero no valido
+2536_027_021 Valor de numero no valido
+2537_021_013 Valor de fecha y hora no valido
+2540_001_001 Valor de numero no valido
+2540_019_019 El renglon no cuenta con los campos adecuados
+
+
+Listado de Imagenes No Referenciadas en archivos OUT : 131 Imagenes
+---------------------------------------------------------------------------
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2386\Libro_2386_0457.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2387\Libro_2387_0018.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2390\Libro_2390_0386.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2393\Libro_2393_0238.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2393\Libro_2393_0297.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2395\Libro_2395_0322.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2398\Libro_2535_0403.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2399\Libro_2399_0221.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2406\Libro_2406_0502.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2408\Libro_2408_0436.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2433\Libro_2433_0694.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2436\Libro_2436_0337.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2437\Libro_2437_0525.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2442\Libro_2442_0006.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2451\Libro_2451_02.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2452\Libro_2452_0493.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2461\Libro_2461_0458.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2463\Libro_2463_0010.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2463\Libro_2463_0018.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0001.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0009.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0017.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0036.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0061.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0069.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0084.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0096.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0102.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0108.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0113.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0118.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0126.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0144.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0158.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0162.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0166.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0170.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0178.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0192.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0209.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0226.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0242.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0261.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0267.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0274.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0280.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0285.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0295.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0305.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0313.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2468\Libro_2468_0345.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0001.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0014.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0026.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0038.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0050.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0062.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0074.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0087.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0100.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0112.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0123.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0134.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0144.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0158.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0172.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0184.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0198.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0212.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0224.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0236.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0262.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0273.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0285.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0297.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0309.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0321.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0327.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0336.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2469\Libro_2469_0346.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0001.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0018.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0038.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0051.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0056.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0073.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0086.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0093.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0099.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0105.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0110.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0122.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0127.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0133.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0172.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0184.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0195.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0213.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0233.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2470\Libro_2470_0239.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2477\Libro_2477_0290.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2479\Libro_2479_0001.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2501\Libro_2501_0636.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2506\Libro_2506_0076.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2506\Libro_2506_0176.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2506\Libro_2506_0416.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2506\Libro_2506_0501.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2510\Libro_2510_0436.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2517\Libro_2517_0186.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2529\Libro_2529_0272.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2529\Libro_2529_0449.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2531\Libro_2531_0450.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2531\Libro_2531_06348.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2533\Libro_2533_0643.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2535\Libro_2535_0412.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2535\Libro_2535_0554.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2536\Libro_2536_0380.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2537\Libro_2537_0001.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2537\Libro_2537_0011.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2537\Libro_2537_0079.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2537\Libro_2537_0227.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2538\Libro_2538_0001.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2538\Libro_2538_0008.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2538\Libro_2538_0017.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2539\Libro_2539_0008.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2539\Libro_2539_0015.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2539\Libro_2539_0038.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2539\Libro_2539_0047.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2539\Libro_2539_0070.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2539\Libro_2539_0077.tif
+\\192.168.137.39\Imagenes historico\Imagenes\Libro_2540\Libro_2540_0616.tif
