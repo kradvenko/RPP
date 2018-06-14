@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{29CC35E2-B867-4DCC-9269-D99E5B207FA4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RPPMain</RootNamespace>
+    <AssemblyName>RPPMain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acto.cs" />
+    <Compile Include="ActosCollection.cs" />
+    <Compile Include="Antecedente.cs" />
+    <Compile Include="AreasTrabajoCollection.cs" />
+    <Compile Include="AreaTrabajo.cs" />
+    <Compile Include="CompendioDigitalizacion.cs" />
+    <Compile Include="Costos.cs" />
+    <Compile Include="Connection.cs" />
+    <Compile Include="Estatus.cs" />
+    <Compile Include="EstatusCollection.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Movimientos.cs" />
+    <Compile Include="MovimientosCollection.cs" />
+    <Compile Include="Municipio.cs" />
+    <Compile Include="MunicipiosCollection.cs" />
+    <Compile Include="ParametrosCollection.cs" />
+    <Compile Include="Parametro.cs" />
+    <Compile Include="Persona.cs" />
+    <Compile Include="Poblacion.cs" />
+    <Compile Include="PoblacionesCollecion.cs" />
+    <Compile Include="Prelacion.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistroActo.cs" />
+    <Compile Include="SeccionArchivo.cs" />
+    <Compile Include="SeccionArchivoCollection.cs" />
+    <Compile Include="TablaDigitalizacion.cs" />
+    <Compile Include="Tarifa.cs" />
+    <Compile Include="TarifasCollection.cs" />
+    <Compile Include="TipoFolio.cs" />
+    <Compile Include="TiposFolioCollection.cs" />
+    <Compile Include="TiposUsuarioCollection.cs" />
+    <Compile Include="TipoUsuario.cs" />
+    <Compile Include="Tramitante.cs" />
+    <Compile Include="TramitantesCollection.cs" />
+    <Compile Include="Ubicacion.cs" />
+    <Compile Include="Usuario.cs" />
+    <Compile Include="UsuariosCollection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MainClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

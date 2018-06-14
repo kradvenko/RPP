@@ -1,0 +1,5 @@
+C:\PROYECTOS\RPPMain\bin\Release\RPPMain.dll
+C:\PROYECTOS\RPPMain\bin\Release\RPPMain.pdb
+C:\PROYECTOS\RPPMain\obj\Release\RPPMain.dll
+C:\PROYECTOS\RPPMain\obj\Release\RPPMain.pdb
+c:\PROYECTOS\RPPMain\obj\Release\RPPMain.csprojResolveAssemblyReference.cache

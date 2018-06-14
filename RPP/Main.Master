@@ -1,0 +1,41 @@
+﻿0/-+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="RPP.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Registro Público de la Propiedad</title>
+
+    <meta http-equiv="Expires" content="0" /> 
+    <meta http-equiv="Pragma" content="no-cache" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="Imgs/favicon.ico" />
+    <link rel="stylesheet" href="Css/normalize.css" />
+    <link rel="stylesheet" href="Css/foundation.min.css" />
+    <link rel="stylesheet" href="Css/Main.css" />    
+
+    
+    <script src="Js/jquery-2.1.3.min.js"></script>
+    <script src="Js/vendor/modernizr.js"></script>
+    <script src="Js/foundation.min.js"></script>
+    <script src="Js/foundation/foundation.tab.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <script type="text/javascript">
+        if (history.forward(1)) {
+            location.replace(history.forward(1));
+        }
+    </script>
+    m, <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="default web site\RPP" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^c:\\PROYECTOS\\RPP\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^c:\\PROYECTOS\\RPP\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="csRPP-Web.config Connection String" description="" value="Data Source=SERVIDOR02;Initial Catalog=RPP_Main;Persist Security Info=True;User ID=Dev;Password=dev007" tags="">
+    <parameterEntry kind="XmlFile" scope="c:\\PROYECTOS\\RPP\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='csRPP']/@connectionString" />
+  </parameter>
+</parameters>

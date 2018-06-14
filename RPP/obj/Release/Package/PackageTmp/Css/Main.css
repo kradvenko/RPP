@@ -1,0 +1,267 @@
+﻿body,select, input[type=submit],
+a.button{
+    font-family: 'GothamBook';
+}
+a, tr>td>a{
+    color: #B80000 ;
+}
+
+
+@font-face {
+	font-family:'GothamBook';
+	src:url('../Fonts/GothamBook.eot') format('eot');
+	src:url('../Fonts/GothamBook.woff') format('woff'),
+		url('../Fonts/GothamBook.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+.button{
+    background-color: #b80000;
+    -webkit-box-shadow: 2px 2px 5px 1px #CCCCCC;
+    box-shadow: 2px 2px 5px 1px #CCCCCC;
+}
+
+    .button:hover, .button:focus {
+        background-color :#8d0b0b;
+        outline: none;
+    }
+
+/*Estilos para formulario de inicio de sesión*/
+.label{
+    display: block;
+margin-top: 20px;
+background-color: #B80000;
+font-size: .8em;
+}
+.center.row {
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	max-width: 500px;
+}
+
+.signup-panel {
+  padding: 15px;
+}
+
+.signup-panel i {
+  font-size: 30px;
+  line-height: 50px;
+  color: #999;
+}
+
+.content > img {
+    display:block;
+    margin: 0 auto;
+    margin-top:40px;
+}
+
+.signup-panel form input, .signup-panel form span {
+  height: 50px;
+}
+
+.signup-panel .welcome {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 0;
+}
+
+.signup-panel .button {
+  margin-left: 35%;
+}
+
+section.active {
+	padding-top: 60px !important;
+}
+
+p.title {
+	border-bottom: 1px solid #cccccc !important;
+}
+
+.content{
+	height: 450px;
+}
+
+.center800 {
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	max-width: 900px;
+}
+
+/*Estilos para Menú de Catalogos.*/
+.tabs{display:inline-block;}
+.salir {margin-left: -4px;}
+.cat{display:table-cell;}
+.cat>li>a{font-size:.9em !important;}
+.tabs .tab-title{
+    width: 128px;
+    border: 1.5px solid #EFEFEF;
+}
+.tabs .tab-title>a{
+    padding: .8rem .8rem;
+    text-align: center;
+    font-family: 'GothamBook';
+    font-weight: bold;
+    text-shadow: 1px 2px 1px #CBC7C7;
+}
+
+section.content > h2{
+    text-align: center;
+    font-family: 'GothamBook';
+    font-size:2em;
+}
+
+section.content>div table{
+    margin: 0px auto 30px;
+}
+
+section.content>div table tr:last-child table{
+    margin:0;
+}
+
+section.content table table td{padding:0;}
+    section.content table table td>input{margin:0;}
+    section.content table table td > label {font-size:.8em;margin:0;}
+/* Estilos para Recepcion*/
+.mas{
+    margin-top:20px;
+    font-weight:900;
+    font-size:.5em;
+}
+.marco{
+    border: solid 2px red;
+}
+.tabs .menu{
+    width: 185px;
+}
+section.content>div table.lista{
+    margin: 0px 0px 30px;
+}
+div.lista{
+    padding : 0px;
+}
+
+fieldset div.registro{
+    height: 215px;
+    margin-right:0px;
+}
+
+div.scroll{
+    overflow: auto;
+    height: 500px;
+    margin-right:40px;
+}
+div.users{
+    margin-right:-15px;
+}
+.columns > label >span {
+    display:block;
+    font-weight : bold;
+}
+input[type="checkbox"]+label, input[type="radio"]+label{
+    display:inline;
+}
+
+
+/*Estilos para Registro*/
+.prel {
+    padding:0;
+}
+.prel > fieldset{
+    padding-left:5px;
+    padding-right:5px;
+    padding-top: 8px;
+}
+.prel > fieldset > legend{
+    padding-left:5px;
+}
+
+
+/* Estilos para la Impresion de Boleta*/
+.boleta {margin-left:20px;margin-top:20px; border:solid 1px #000; width:685px;font-size:.8em;position:relative;}
+.head > img {
+    position:absolute;
+    top:5px;
+    left:30px;
+}
+.head > div{
+    display:inline-block;
+}
+    .head > div.gob {
+        margin-left:85px;
+        margin-right:20px;
+        margin-top:10px;
+        text-align:center;
+    }
+    .head > div > p , .desc > div  p{
+    margin:0; 
+    line-height:1;
+    }
+    .head > div.gob > p:nth-child(1) {
+    font-size:1.4em;
+    }
+    .tram{float:left; line-height:1;width:341px;}
+        .tram > p {
+            border-bottom:1px solid #000;
+            border-top:1px solid #000;
+            text-align:center;
+            font-size:1.2em;
+            line-height:1;
+            margin: 0;
+        }
+    .ante{float:right; width:341px}
+#gvAntecedentes tr > th, #gvAntecedentes tr > td,
+#gvServicios tr > th, #gvServicios tr > td,
+#gvCostos tr > th, #gvCostos tr > td,
+#gvAntecedentes2 tr > th, #gvAntecedentes2 tr > td,
+#gvServicios2 tr > th, #gvServicios2 tr > td{font-size:.9em;padding: .1rem .3rem;}
+
+.reng {border-top: 1px solid #000; padding-top:10px;}
+.descripcion > p{
+    text-align:center;
+    border-bottom: 1px solid #000;
+    font-size:1.2em;
+}
+.valor{text-align:right;margin-top: -20px;margin-right: 90px;}
+.servicios{margin-left:2px;}
+.bien {margin-top:-10px;}
+    .bien > p{font-size:1em;}
+.costos table{ margin: 10px auto;}
+.total {
+    text-align: right;
+    margin-right: 90px;
+}
+
+#columnas{height:81px;}
+    #columnas .bien{
+        float: left;
+        width: 395px;
+    }
+    #columnas #firma{
+        width: 275px;
+        float: right;
+        text-align: center;
+        border-top: 1px solid #000;
+        margin-right: 10px;
+        margin-top: 42px;
+    }
+        #columnas #firma >span{font-weight:bold;}
+        #columnas #firma > p{font-size:1em;}
+    .totalE{
+        text-align: left;
+        margin-left: 90px;
+    }
+/*Registrar formulario*/
+.registrar > fieldset{
+    padding:.7rem;
+    margin: .7rem 0;
+}
+.registrar .columns > label > input,
+.registrar .columns > label > select,
+.registrar .columns > table {
+    margin:0;
+}
+.space {padding-bottom:7px;}

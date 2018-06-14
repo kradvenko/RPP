@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4C44C2F9-E3BE-4A67-88FD-5A20A11ED630}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RPP</RootNamespace>
+    <AssemblyName>RPP</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BitMiracle.LibTiff.NET">
+      <HintPath>..\..\Users\avalenzuela\Downloads\BitMiracle.LibTiff.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\Users\avalenzuela\Downloads\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.SharePoint.Client, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Runtime, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ActualizacionDiaria.aspx" />
+    <Content Include="BoletaEntrega.aspx" />
+    <Content Include="BoletaRecepcion.aspx" />
+    <Content Include="CapturaDocumentos.aspx" />
+    <Content Include="CapturaHistorico.aspx" />
+    <Content Include="Catalogos.aspx" />
+    <Content Include="Consulta.aspx" />
+    <Content Include="Css\foundation.css" />
+    <Content Include="Css\foundation.min.css" />
+    <Content Include="Css\Main.css" />
+    <Content Include="Css\normalize.css" />
+    <Content Include="Distribucion.aspx" />
+    <Content Include="DocumentoControles.aspx" />
+    <Content Include="DocumentoImagen.aspx" />
+    <Content Include="EjemploImagenes.aspx" />
+    <Content Include="Entrega.aspx" />
+    <Content Include="Imgs\favicon.ico" />
+    <Content Include="Imgs\loader3.gif" />
+    <Content Include="Imgs\loadingb.gif" />
+    <Content Include="Imgs\logo-gobierno.png" />
+    <Content Include="Imgs\logo_inicio.jpg" />
+    <Content Include="Imgs\RPP.jpg" />
+    <Content Include="Js\foundation.min.js" />
+    <Content Include="Js\foundation\foundation.abide.js" />
+    <Content Include="Js\foundation\foundation.accordion.js" />
+    <Content Include="Js\foundation\foundation.alert.js" />
+    <Content Include="Js\foundation\foundation.clearing.js" />
+    <Content Include="Js\foundation\foundation.dropdown.js" />
+    <Content Include="Js\foundation\foundation.equalizer.js" />
+    <Content Include="Js\foundation\foundation.interchange.js" />
+    <Content Include="Js\foundation\foundation.joyride.js" />
+    <Content Include="Js\foundation\foundation.js" />
+    <Content Include="Js\foundation\foundation.magellan.js" />
+    <Content Include="Js\foundation\foundation.offcanvas.js" />
+    <Content Include="Js\foundation\foundation.orbit.js" />
+    <Content Include="Js\foundation\foundation.reveal.js" />
+    <Content Include="Js\foundation\foundation.slider.js" />
+    <Content Include="Js\foundation\foundation.tab.js" />
+    <Content Include="Js\foundation\foundation.tooltip.js" />
+    <Content Include="Js\foundation\foundation.topbar.js" />
+    <Content Include="Js\jquery-2.1.3.min.js" />
+    <Content Include="Js\vendor\fastclick.js" />
+    <Content Include="Js\vendor\jquery.cookie.js" />
+    <Content Include="Js\vendor\jquery.js" />
+    <Content Include="Js\vendor\modernizr.js" />
+    <Content Include="Js\vendor\placeholder.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Main.Master" />
+    <Content Include="Fonts\GothamBook.eot" />
+    <Content Include="Fonts\GothamBook.ttf" />
+    <Content Include="Fonts\GothamBook.woff" />
+    <None Include="Properties\PublishProfiles\Deploy Web.pubxml" />
+    <None Include="Properties\PublishProfiles\RPP Publicación Por Archivos.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="PreDocumento.aspx" />
+    <Content Include="Recepcion.aspx" />
+    <Content Include="Registrar.aspx" />
+    <Content Include="Registro.aspx" />
+    <Content Include="ReporteAsignadas.aspx" />
+    <Content Include="ReporteAsignadasRango.aspx" />
+    <Content Include="Reportes.aspx" />
+    <Content Include="Revision.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActualizacionDiaria.aspx.cs">
+      <DependentUpon>ActualizacionDiaria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActualizacionDiaria.aspx.designer.cs">
+      <DependentUpon>ActualizacionDiaria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BoletaEntrega.aspx.cs">
+      <DependentUpon>BoletaEntrega.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BoletaEntrega.aspx.designer.cs">
+      <DependentUpon>BoletaEntrega.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BoletaRecepcion.aspx.cs">
+      <DependentUpon>BoletaRecepcion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BoletaRecepcion.aspx.designer.cs">
+      <DependentUpon>BoletaRecepcion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CapturaHistorico.aspx.cs">
+      <DependentUpon>CapturaHistorico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CapturaHistorico.aspx.designer.cs">
+      <DependentUpon>CapturaHistorico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos.aspx.cs">
+      <DependentUpon>Catalogos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos.aspx.designer.cs">
+      <DependentUpon>Catalogos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta.aspx.cs">
+      <DependentUpon>Consulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consulta.aspx.designer.cs">
+      <DependentUpon>Consulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Distribucion.aspx.cs">
+      <DependentUpon>Distribucion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Distribucion.aspx.designer.cs">
+      <DependentUpon>Distribucion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentoControles.aspx.cs">
+      <DependentUpon>DocumentoControles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DocumentoControles.aspx.designer.cs">
+      <DependentUpon>DocumentoControles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentoImagen.aspx.cs">
+      <DependentUpon>DocumentoImagen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DocumentoImagen.aspx.designer.cs">
+      <DependentUpon>DocumentoImagen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EjemploImagenes.aspx.cs">
+      <DependentUpon>EjemploImagenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EjemploImagenes.aspx.designer.cs">
+      <DependentUpon>EjemploImagenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entrega.aspx.cs">
+      <DependentUpon>Entrega.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Entrega.aspx.designer.cs">
+      <DependentUpon>Entrega.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PreDocumento.aspx.cs">
+      <DependentUpon>PreDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PreDocumento.aspx.designer.cs">
+      <DependentUpon>PreDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recepcion.aspx.cs">
+      <DependentUpon>Recepcion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recepcion.aspx.designer.cs">
+      <DependentUpon>Recepcion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registrar.aspx.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registrar.aspx.designer.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registro.aspx.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registro.aspx.designer.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteAsignadas.aspx.cs">
+      <DependentUpon>ReporteAsignadas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteAsignadas.aspx.designer.cs">
+      <DependentUpon>ReporteAsignadas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteAsignadasRango.aspx.cs">
+      <DependentUpon>ReporteAsignadasRango.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteAsignadasRango.aspx.designer.cs">
+      <DependentUpon>ReporteAsignadasRango.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes.aspx.cs">
+      <DependentUpon>Reportes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes.aspx.designer.cs">
+      <DependentUpon>Reportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Revision.aspx.cs">
+      <DependentUpon>Revision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Revision.aspx.designer.cs">
+      <DependentUpon>Revision.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPSharePoint\RPPSharePoint.csproj">
+      <Project>{fb80c4d3-24b4-4373-b22e-6ccab479d6ff}</Project>
+      <Name>RPPSharePoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RPPMain\RPPMain.csproj">
+      <Project>{29cc35e2-b867-4dcc-9269-d99e5b207fa4}</Project>
+      <Name>RPPMain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56756</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56749/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+          <servers defaultServer="SelfHostServer">
+            <server name="SelfHostServer" exePath="" cmdArgs="" url="http://localhost:56749/" workingDir="" />
+          </servers>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

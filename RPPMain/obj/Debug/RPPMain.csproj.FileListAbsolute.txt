@@ -1,0 +1,4 @@
+c:\PROYECTOS\RPPMain\bin\Debug\RPPMain.dll
+c:\PROYECTOS\RPPMain\bin\Debug\RPPMain.pdb
+c:\PROYECTOS\RPPMain\obj\Debug\RPPMain.dll
+c:\PROYECTOS\RPPMain\obj\Debug\RPPMain.pdb

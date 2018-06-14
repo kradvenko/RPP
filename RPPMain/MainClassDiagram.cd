@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RPPMain.Main">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ECAAAAAAAAAAEAAAAAAAAABIAAEQAAAEAAAAAAIAgiI=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.AreasTrabajoCollection">
+    <Position X="2" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQCAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>AreasTrabajoCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.AreaTrabajo">
+    <Position X="2" Y="4.75" Width="1.25" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAASAAAEAgAgBAAAAAAAIAAAAAAAAEAA=</HashCode>
+      <FileName>AreaTrabajo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.Usuario">
+    <Position X="5" Y="4.75" Width="1.25" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EGACBBQgAgQEAACBAAAggAggIAQAYAAKAAAQGhAAEBY=</HashCode>
+      <FileName>Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.Acto">
+    <Position X="0.5" Y="4.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAISAEEAAgBgAAAABAAAIAAAAAQABMAE=</HashCode>
+      <FileName>Acto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.ActosCollection">
+    <Position X="0.5" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAQAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ActosCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.Movimientos">
+    <Position X="3.5" Y="4.75" Width="1.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAAJAAAAAAACAAAAAgAgAAAAAAAAIAAAAIAAAMCE=</HashCode>
+      <FileName>Movimientos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.MovimientosCollection">
+    <Position X="3.5" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>MovimientosCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.Tarifa">
+    <Position X="6.5" Y="4.75" Width="1.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAABBAIgAAAAICAAAAAAAggAAABIIIIAACCAAABMAA=</HashCode>
+      <FileName>Tarifa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.TarifasCollection">
+    <Position X="6.5" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAQA=</HashCode>
+      <FileName>TarifasCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.UsuariosCollection">
+    <Position X="5" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAACAAAAAAAABA=</HashCode>
+      <FileName>UsuariosCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.Estatus">
+    <Position X="8" Y="4.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAgAgAAAAACAAIAAAAAAAAEAA=</HashCode>
+      <FileName>Estatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.EstatusCollection">
+    <Position X="8" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAABAAACAAAAAAAAAA=</HashCode>
+      <FileName>EstatusCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.TipoFolio">
+    <Position X="9.5" Y="4.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAgAAgAgAAAAAAAAIAAAAAAAAEAA=</HashCode>
+      <FileName>TipoFolio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.TiposFolioCollection">
+    <Position X="9.5" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>TiposFolioCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.Municipio">
+    <Position X="11" Y="4.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAACAAAAAgAgAAAAAAAAIAAAAAAAAEAA=</HashCode>
+      <FileName>Municipio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.MunicipiosCollection">
+    <Position X="11" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>MunicipiosCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.Poblacion">
+    <Position X="12.5" Y="4.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIBAACCCAAAgAkAAAAAAAAIACAAAAAAAAA=</HashCode>
+      <FileName>Poblacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.PoblacionesCollecion">
+    <Position X="12.5" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAICAAAACAAAAAAAAAA=</HashCode>
+      <FileName>PoblacionesCollecion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.TipoUsuario">
+    <Position X="14" Y="4.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAEAQ=</HashCode>
+      <FileName>TipoUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.TiposUsuarioCollection">
+    <Position X="14" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>TiposUsuarioCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.Parametro">
+    <Position X="15.5" Y="4.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAABAAAACAAAAAgAgEAAAAAAIYAAAAAAAAEAA=</HashCode>
+      <FileName>Parametro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.ParametrosCollection">
+    <Position X="15.5" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAQAAAAAAA=</HashCode>
+      <FileName>ParametrosCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.SeccionArchivo">
+    <Position X="17" Y="4.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAgEAgAgBQAIAAEQIAAAAAAAAEAA=</HashCode>
+      <FileName>SeccionArchivo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.SeccionArchivoCollection">
+    <Position X="17" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAQAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>SeccionArchivoCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.Tramitante">
+    <Position X="18.5" Y="4.75" Width="1.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QKiSDgCgogQAAACAAAAAgAAAAARAAQAIAAEAHgQBEB4=</HashCode>
+      <FileName>Tramitante.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.TramitantesCollection">
+    <Position X="18.5" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAACAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>TramitantesCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPPMain.Antecedente">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEAAQAAASEAAAEBAQAAAAAAQAAAgEBAAIAAoAAAALE=</HashCode>
+      <FileName>Antecedente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

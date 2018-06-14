@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\RPPWeb</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ActualizacionDiaria.aspx">
+      <publishTime>04/30/2015 12:26:46</publishTime>
+    </File>
+    <File Include="bin/BitMiracle.LibTiff.NET.dll">
+      <publishTime>04/30/2015 12:44:11</publishTime>
+    </File>
+    <File Include="bin/en-us/Microsoft.SharePoint.Client.Runtime.resources.dll">
+      <publishTime>03/26/2010 22:15:24</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>04/30/2015 12:44:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Client.dll">
+      <publishTime>03/26/2010 22:15:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Client.Runtime.dll">
+      <publishTime>03/26/2010 22:15:42</publishTime>
+    </File>
+    <File Include="bin/RPP.dll">
+      <publishTime>02/03/2016 13:55:09</publishTime>
+    </File>
+    <File Include="bin/RPPMain.dll">
+      <publishTime>02/03/2016 13:55:08</publishTime>
+    </File>
+    <File Include="bin/RPPSharePoint.dll">
+      <publishTime>02/03/2016 13:55:08</publishTime>
+    </File>
+    <File Include="BoletaEntrega.aspx">
+      <publishTime>03/02/2015 12:26:48</publishTime>
+    </File>
+    <File Include="BoletaRecepcion.aspx">
+      <publishTime>04/13/2015 11:47:07</publishTime>
+    </File>
+    <File Include="CapturaDocumentos.aspx">
+      <publishTime>04/30/2015 12:26:46</publishTime>
+    </File>
+    <File Include="CapturaHistorico.aspx">
+      <publishTime>04/30/2015 12:26:46</publishTime>
+    </File>
+    <File Include="Catalogos.aspx">
+      <publishTime>05/13/2015 21:57:50</publishTime>
+    </File>
+    <File Include="Consulta.aspx">
+      <publishTime>04/30/2015 12:26:46</publishTime>
+    </File>
+    <File Include="Css/foundation.css">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Css/foundation.min.css">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Css/Main.css">
+      <publishTime>03/25/2015 09:04:14</publishTime>
+    </File>
+    <File Include="Css/normalize.css">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>03/18/2015 16:29:10</publishTime>
+    </File>
+    <File Include="Distribucion.aspx">
+      <publishTime>04/13/2015 11:47:07</publishTime>
+    </File>
+    <File Include="DocumentoControles.aspx">
+      <publishTime>03/25/2015 15:21:54</publishTime>
+    </File>
+    <File Include="DocumentoImagen.aspx">
+      <publishTime>04/30/2015 12:29:09</publishTime>
+    </File>
+    <File Include="EjemploImagenes.aspx">
+      <publishTime>04/01/2015 16:28:18</publishTime>
+    </File>
+    <File Include="Entrega.aspx">
+      <publishTime>02/02/2016 11:57:58</publishTime>
+    </File>
+    <File Include="Fonts/GothamBook.eot">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Fonts/GothamBook.ttf">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Fonts/GothamBook.woff">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Imgs/favicon.ico">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Imgs/logo-gobierno.png">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Imgs/logo_inicio.jpg">
+      <publishTime>03/25/2015 09:04:14</publishTime>
+    </File>
+    <File Include="Imgs/RPP.jpg">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation.min.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.abide.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.accordion.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.alert.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.clearing.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.dropdown.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.equalizer.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.interchange.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.joyride.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.magellan.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.offcanvas.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.orbit.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.reveal.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.slider.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.tab.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.tooltip.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/foundation/foundation.topbar.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/jquery-2.1.3.min.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/vendor/fastclick.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/vendor/jquery.cookie.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/vendor/jquery.js">
+      <publishTime>03/02/2015 12:26:50</publishTime>
+    </File>
+    <File Include="Js/vendor/modernizr.js">
+      <publishTime>03/02/2015 12:26:51</publishTime>
+    </File>
+    <File Include="Js/vendor/placeholder.js">
+      <publishTime>03/02/2015 12:26:51</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>03/25/2015 09:04:14</publishTime>
+    </File>
+    <File Include="Main.Master">
+      <publishTime>03/25/2015 09:04:14</publishTime>
+    </File>
+    <File Include="PreDocumento.aspx">
+      <publishTime>04/30/2015 12:26:46</publishTime>
+    </File>
+    <File Include="Recepcion.aspx">
+      <publishTime>04/13/2015 11:47:08</publishTime>
+    </File>
+    <File Include="Registrar.aspx">
+      <publishTime>02/01/2016 13:56:23</publishTime>
+    </File>
+    <File Include="Registro.aspx">
+      <publishTime>05/13/2015 21:57:50</publishTime>
+    </File>
+    <File Include="Reportes.aspx">
+      <publishTime>02/01/2016 13:56:23</publishTime>
+    </File>
+    <File Include="Revision.aspx">
+      <publishTime>02/01/2016 13:56:23</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/03/2016 13:55:10</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

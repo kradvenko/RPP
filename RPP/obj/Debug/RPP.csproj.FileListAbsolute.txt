@@ -1,0 +1,14 @@
+C:\PROYECTOS\RPP\bin\RPP.dll.config
+C:\PROYECTOS\RPP\bin\RPP.dll
+C:\PROYECTOS\RPP\bin\RPP.pdb
+C:\PROYECTOS\RPP\bin\RPPMain.dll
+C:\PROYECTOS\RPP\bin\RPPSharePoint.dll
+C:\PROYECTOS\RPP\bin\RPPMain.pdb
+C:\PROYECTOS\RPP\obj\Debug\RPP.csprojResolveAssemblyReference.cache
+C:\PROYECTOS\RPP\obj\Debug\RPP.dll
+C:\PROYECTOS\RPP\obj\Debug\RPP.pdb
+C:\PROYECTOS\RPP\bin\BitMiracle.LibTiff.NET.dll
+C:\PROYECTOS\RPP\bin\itextsharp.dll
+C:\PROYECTOS\RPP\bin\RPPSharePoint.pdb
+c:\PROYECTOS\RPP\bin\Microsoft.SharePoint.Client.dll
+c:\PROYECTOS\RPP\bin\Microsoft.SharePoint.Client.Runtime.dll
