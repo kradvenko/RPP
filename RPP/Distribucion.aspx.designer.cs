@@ -202,6 +202,15 @@ namespace RPP {
         protected global::System.Web.UI.WebControls.Button btGuardarCambios;
         
         /// <summary>
+        /// Control lblContador.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblContador;
+        
+        /// <summary>
         /// Control cbSinAsignar.
         /// </summary>
         /// <remarks>

@@ -90,9 +90,10 @@
                             <legend>Sin Asignar</legend>
                             <div class="row">
                                 <div class="medium-8 large-8 columns lista">
+                                    <label runat="server" id="lblContador"></label>
                                     <label>Prelaciones
                                         <div class="scroll">
-                                            <asp:CheckBoxList ID="cbSinAsignar" runat="server" CssClass="lista">
+                                            <asp:CheckBoxList ID="cbSinAsignar" runat="server" CssClass="lista" OnSelectedIndexChanged="cbSinAsignar_SelectedIndexChanged">
                                             </asp:CheckBoxList>
                                         </div>
                                     </label>

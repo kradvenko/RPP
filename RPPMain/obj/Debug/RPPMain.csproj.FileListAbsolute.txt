@@ -2,3 +2,9 @@ c:\PROYECTOS\RPPMain\bin\Debug\RPPMain.dll
 c:\PROYECTOS\RPPMain\bin\Debug\RPPMain.pdb
 c:\PROYECTOS\RPPMain\obj\Debug\RPPMain.dll
 c:\PROYECTOS\RPPMain\obj\Debug\RPPMain.pdb
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\bin\Debug\RPPMain.dll
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\bin\Debug\RPPMain.pdb
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\obj\Debug\RPPMain.csprojAssemblyReference.cache
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\obj\Debug\RPPMain.csproj.CoreCompileInputs.cache
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\obj\Debug\RPPMain.dll
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\obj\Debug\RPPMain.pdb

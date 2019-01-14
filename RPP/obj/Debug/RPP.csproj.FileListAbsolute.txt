@@ -12,3 +12,17 @@ C:\PROYECTOS\RPP\bin\itextsharp.dll
 C:\PROYECTOS\RPP\bin\RPPSharePoint.pdb
 c:\PROYECTOS\RPP\bin\Microsoft.SharePoint.Client.dll
 c:\PROYECTOS\RPP\bin\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\obj\Debug\RPP.csprojAssemblyReference.cache
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\obj\Debug\RPP.csproj.CoreCompileInputs.cache
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\obj\Debug\RPP.dll
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\obj\Debug\RPP.pdb
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\bin\RPP.dll.config
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\bin\RPP.dll
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\bin\RPP.pdb
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\bin\Microsoft.SharePoint.Client.dll
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\bin\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\bin\RPPMain.dll
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\bin\RPPSharePoint.dll
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\bin\RPPSharePoint.pdb
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\bin\RPPMain.pdb
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\obj\Debug\RPP.csproj.CopyComplete

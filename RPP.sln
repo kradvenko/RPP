@@ -1,30 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPP", "RPP\RPP.csproj", "{4C44C2F9-E3BE-4A67-88FD-5A20A11ED630}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FB80C4D3-24B4-4373-B22E-6CCAB479D6FF} = {FB80C4D3-24B4-4373-B22E-6CCAB479D6FF}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPPMain", "RPPMain\RPPMain.csproj", "{29CC35E2-B867-4DCC-9269-D99E5B207FA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPPSharePoint", "..\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPSharePoint\RPPSharePoint.csproj", "{FB80C4D3-24B4-4373-B22E-6CCAB479D6FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPPSharePoint", "RPPHistorico\RPPSharePoint\RPPSharePoint.csproj", "{FB80C4D3-24B4-4373-B22E-6CCAB479D6FF}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://servidor03:8080/tfs/proyectos%20web
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = RPP\\RPP.csproj
-		SccProjectName1 = RPP
-		SccLocalPath1 = RPP
-		SccProjectUniqueName2 = RPPMain\\RPPMain.csproj
-		SccProjectName2 = RPPMain
-		SccLocalPath2 = RPPMain
-		SccProjectUniqueName3 = ..\\Users\\avalenzuela\\Documents\\Visual\u0020Studio\u00202013\\Projects\\RPPHistorico\\RPPSharePoint\\RPPSharePoint.csproj
-		SccProjectName3 = ../Users/avalenzuela/Documents/Visual\u0020Studio\u00202013/Projects/RPPHistorico/RPPSharePoint
-		SccLocalPath3 = ..\\Users\\avalenzuela\\Documents\\Visual\u0020Studio\u00202013\\Projects\\RPPHistorico\\RPPSharePoint
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -45,5 +33,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EBC6CA1-5464-4457-962A-7EEE4B013922}
 	EndGlobalSection
 EndGlobal

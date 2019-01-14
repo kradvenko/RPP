@@ -2,3 +2,12 @@ C:\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPShare
 C:\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPSharePoint\bin\Debug\RPPSharePoint.pdb
 C:\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPSharePoint\obj\Debug\RPPSharePoint.dll
 C:\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPSharePoint\obj\Debug\RPPSharePoint.pdb
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPHistorico\RPPSharePoint\bin\Debug\RPPSharePoint.dll
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPHistorico\RPPSharePoint\bin\Debug\RPPSharePoint.pdb
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPHistorico\RPPSharePoint\bin\Debug\Microsoft.SharePoint.Client.dll
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPHistorico\RPPSharePoint\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPHistorico\RPPSharePoint\obj\Debug\RPPSharePoint.csprojAssemblyReference.cache
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPHistorico\RPPSharePoint\obj\Debug\RPPSharePoint.csproj.CoreCompileInputs.cache
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPHistorico\RPPSharePoint\obj\Debug\RPPSharePoint.csproj.CopyComplete
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPHistorico\RPPSharePoint\obj\Debug\RPPSharePoint.dll
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPHistorico\RPPSharePoint\obj\Debug\RPPSharePoint.pdb

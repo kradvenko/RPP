@@ -1,4 +1,4 @@
-﻿0/-+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="RPP.Main" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="RPP.Main" %>
 
 <!DOCTYPE html>
 
@@ -30,7 +30,7 @@
             location.replace(history.forward(1));
         }
     </script>
-    m, <form id="form1" runat="server">
+    <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         

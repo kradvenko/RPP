@@ -23,6 +23,8 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -104,6 +106,7 @@
     <Content Include="Imgs\logo-gobierno.png" />
     <Content Include="Imgs\logo_inicio.jpg" />
     <Content Include="Imgs\RPP.jpg" />
+    <Content Include="Imgs\RPP_Old.jpg" />
     <Content Include="Js\foundation.min.js" />
     <Content Include="Js\foundation\foundation.abide.js" />
     <Content Include="Js\foundation\foundation.accordion.js" />
@@ -312,7 +315,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Users\avalenzuela\Documents\Visual Studio 2013\Projects\RPPHistorico\RPPSharePoint\RPPSharePoint.csproj">
+    <ProjectReference Include="..\RPPHistorico\RPPSharePoint\RPPSharePoint.csproj">
       <Project>{fb80c4d3-24b4-4373-b22e-6ccab479d6ff}</Project>
       <Name>RPPSharePoint</Name>
     </ProjectReference>

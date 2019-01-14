@@ -229,7 +229,6 @@ namespace RPP
         #endregion
         protected void btAsignar_Click(object sender, EventArgs e)
         {
-            
             Prelacion pre = new Prelacion();
             List<ListItem> selectedP = new List<ListItem>();
             foreach (ListItem item in cbSinAsignar.Items)
@@ -321,6 +320,11 @@ namespace RPP
         protected void Button3_Click(object sender, EventArgs e)
         {
             CargarListas2();
+        }
+
+        protected void cbSinAsignar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

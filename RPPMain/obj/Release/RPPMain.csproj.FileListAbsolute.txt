@@ -3,3 +3,9 @@ C:\PROYECTOS\RPPMain\bin\Release\RPPMain.pdb
 C:\PROYECTOS\RPPMain\obj\Release\RPPMain.dll
 C:\PROYECTOS\RPPMain\obj\Release\RPPMain.pdb
 c:\PROYECTOS\RPPMain\obj\Release\RPPMain.csprojResolveAssemblyReference.cache
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\bin\Release\RPPMain.dll
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\bin\Release\RPPMain.pdb
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\obj\Release\RPPMain.csprojAssemblyReference.cache
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\obj\Release\RPPMain.csproj.CoreCompileInputs.cache
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\obj\Release\RPPMain.dll
+C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\obj\Release\RPPMain.pdb
