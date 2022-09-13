@@ -85,9 +85,15 @@ namespace RPP
             //Llenar el CheckBoxList de Prelaciones Sin Asignar
             foreach (Prelacion var in pre.ObtenerPrelacionesEstatus("RECEPCION"))
             {
+                /*
                 ListItem item = new ListItem();
                 List<Movimientos> mov = Prelacion.ObtenerMovimientosPrelacion(var.IdPrelacion,"");
                 item.Text = "<b>" +var.IdPrelacion.ToString() + "</b> |" + mov[0].Acto.Nombre;
+                item.Value = var.IdPrelacion.ToString();
+                cbSinAsignar.Items.Add(item);
+                */
+                ListItem item = new ListItem();
+                item.Text = "<b>" + var.IdPrelacion.ToString() + "</b> |" + var.NombreActo;
                 item.Value = var.IdPrelacion.ToString();
                 cbSinAsignar.Items.Add(item);
             }

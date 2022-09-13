@@ -18,6 +18,8 @@ namespace RPPMain
         private int idPrelacionActo;
         private String estadoMovimiento;
         private decimal importe;
+        //Para impresion
+        public String Total { get; set; }
 
         public int ClaveActo
         {

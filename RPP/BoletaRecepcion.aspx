@@ -18,17 +18,30 @@
 <body>
     <form id="form1" runat="server">
      <div class="boleta">
-        <div class="head">
-            <img src="Imgs/logo-gobierno.png" width="50" height="50" />
+        <div class="head">            
             <div class="gob">
-                <p>GOBIERNO DEL ESTADO DE <strong>NAYARIT</strong></p>
-                <p>Registro Público de la Propiedad y Comercio</p>
-                <p>BOLETA DE INGRESO</p>
+                <table style="margin: 10px !important; padding: 0px !important;">
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">
+                                <img src="Imgs/logo-gobierno.png" width="50" height="50" />
+                            </td>
+                            <td>
+                                GOBIERNO DEL ESTADO DE NAYARIT
+                                <br />
+                                Registro Público de la Propiedad y Comercio
+                                <p>BOLETA DE INGRESO</p>
+                            </td>
+                            <td rowspan="2">
+                                <strong style="font-size: 1.2em;">PRELACIÓN: <asp:Label runat="server" ID="lbPrelacion"> </asp:Label>  </strong>
+                                <p style="font-size: 1.2em;">Fecha:<asp:Label runat="server" ID="lbCreacion" Visible="true"> </asp:Label></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <div>
-                <p>PRELACIÓN: <asp:Label runat="server" ID="lbPrelacion"> </asp:Label></p>
-                <p>Fecha: <asp:Label runat="server" ID="lbFecha"> </asp:Label></p>
-                <p>Hora: <asp:Label runat="server" ID="lbHora"> </asp:Label></p>
+                
             </div>
         </div>
         <div class="row reng">
@@ -63,6 +76,7 @@
                         <asp:BoundField DataField="ClaveActo" ReadOnly="true" HeaderText="Servicio" ShowHeader="true"  />
                         <asp:BoundField DataField="NombreActo" ReadOnly="true" HeaderText="Acto" ShowHeader="true"  />
                         <asp:BoundField DataField="Nombre" ReadOnly="true" HeaderText="Movimiento" ShowHeader="true" />
+                        <asp:BoundField DataField="Total" ReadOnly="true" HeaderText="#" ShowHeader="true" />
                     </Columns>
                 </asp:GridView>
             </div>
@@ -83,25 +97,38 @@
             </div>
             <div class="total">
                 <p><strong>TOTAL: $<asp:Label runat="server" ID="lbTotal"></asp:Label></strong></p>
+                Fecha de impresión de boleta: <asp:Label runat="server" ID="lbFecha"> </asp:Label>
             </div>
         </div>
          <div><b>CONTRIBUYENTE</b></div>
     </div>
-        <div style="height: 30px;">
+        <div style="height: 20px;">
 
         </div>
     <div class="boleta">
-        <div class="head">
-            <img id="img2" src="Imgs/logo-gobierno.png" width="50" height="50" />
+        <div class="head">            
             <div class="gob">
-                <p>GOBIERNO DEL ESTADO DE <strong>NAYARIT</strong></p>
-                <p>Registro Público de la Propiedad y Comercio</p>
-                <p>BOLETA DE INGRESO</p>
+                <table style="margin: 0px !important; padding: 0px !important;">
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">
+                                <img src="Imgs/logo-gobierno.png" width="50" height="50" />
+                            </td>
+                            <td>
+                                GOBIERNO DEL ESTADO DE NAYARIT
+                                <br />
+                                Registro Público de la Propiedad y Comercio
+                                <p>BOLETA DE INGRESO</p>
+                            </td>
+                            <td rowspan="2">
+                                <strong style="font-size: 1.2em;">PRELACIÓN: <asp:Label runat="server" ID="lbPrelacion2"> </asp:Label>  </strong>
+                                <p style="font-size: 1.2em;">Fecha:<asp:Label runat="server" ID="lbCreacion2" Visible="true"> </asp:Label></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div>
-                <p>PRELACIÓN: <asp:Label runat="server" ID="lbPrelacion2"> </asp:Label></p>
-                <p>Fecha: <asp:Label runat="server" ID="lbFecha2"> </asp:Label></p>
-                <p>Hora: <asp:Label runat="server" ID="lbHora2"> </asp:Label></p>
+            <div>                
             </div>
         </div>
         <div class="row reng">
@@ -136,6 +163,7 @@
                         <asp:BoundField DataField="ClaveActo" ReadOnly="true" HeaderText="Servicio" ShowHeader="true"  />
                         <asp:BoundField DataField="NombreActo" ReadOnly="true" HeaderText="Acto" ShowHeader="true"  />
                         <asp:BoundField DataField="Nombre" ReadOnly="true" HeaderText="Movimiento" ShowHeader="true" />
+                        <asp:BoundField DataField="Total" ReadOnly="true" HeaderText="#" ShowHeader="true" />
                     </Columns>
                 </asp:GridView>
             </div>
@@ -145,11 +173,106 @@
             </div>
             <div class="total">
                 <p><strong>TOTAL: $<asp:Label runat="server" ID="lbTotal2"></asp:Label></strong></p>
+                Fecha de impresión de boleta: <asp:Label runat="server" ID="lbFecha2"> </asp:Label>
             </div>
         </div>
         <div><b>REGISTRO PÚBLICO</b></div>
     </div>
+        <div style="height: 20px;">
 
+        </div>
+        
+    <div class="boleta">
+        <div class="head">
+            <div class="gob">
+                <table style="margin: 0px !important; padding: 0px !important;">
+                    <thead>
+                        <tr>
+                            <td rowspan="2">
+                                <img src="Imgs/logo-gobierno.png" width="150" height="150" />
+                            </td>
+                            <td>
+                                GOBIERNO DEL ESTADO DE NAYARIT
+                                <br />
+                                Registro Público de la Propiedad y Comercio
+                                <p>BOLETA DE INGRESO</p>
+                            </td>
+                            <td rowspan="2">
+                                <strong><h2>PRELACIÓN: <asp:Label runat="server" ID="lbPrelacion3"> </asp:Label></h2></strong>
+                                <p style="font-size: 1.2em;">Fecha:<asp:Label runat="server" ID="lbCreacion3" Visible="true"> </asp:Label></p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>                
+            </div>
+        </div>
+        <!--
+        <div class="row reng" style="visibility: collapse;">
+            <div class="tram">
+                <asp:Label runat="server" ID="lbUsuario3"></asp:Label>
+                <p><strong>DATOS DEL CONTRIBUYENTE</strong></p>
+                <asp:Label runat="server" ID="lbTramitante3"></asp:Label><br />
+                <asp:Label runat="server" ID="lbRfc3"></asp:Label><br />
+                <asp:Label runat="server" ID="lbDomicilio13"></asp:Label><br />
+                <asp:Label runat="server" ID="lbDomicilio23"></asp:Label>
+            </div>
+            <div class="ante" style="visibility: collapse;">
+                <asp:GridView runat="server" ID="gvAntecedentes3" AutoGenerateColumns="false" ShowHeaderWhenEmpty="true">
+                    <Columns>
+                        <asp:BoundField DataField="Libro" ReadOnly="true" HeaderText="Libro" ShowHeader="true"  />
+                        <asp:BoundField DataField="Tomo" ReadOnly="true" HeaderText="Tomo" ShowHeader="true"  />
+                        <asp:BoundField DataField="Seccion" ReadOnly="true" HeaderText="Seccion" ShowHeader="true" />
+                        <asp:BoundField DataField="Serie" ReadOnly="true" HeaderText="Serie" ShowHeader="true" />
+                        <asp:BoundField DataField="Semestre" ReadOnly="true" HeaderText="Semestre" ShowHeader="true" />
+                        <asp:BoundField DataField="Año" ReadOnly="true" HeaderText="Año" ShowHeader="true" />
+                        <asp:BoundField DataField="Partida" ReadOnly="true" HeaderText="Partida" ShowHeader="true"  />
+                    </Columns>
+                </asp:GridView>
+            </div>
+        </div>
+        <div class="descripcion" style="visibility: collapse;"><p><strong>DESCRIPCION DEL TRAMITE / CONCEPTO DE PAGO</strong></p></div>
+        <div class="desc" style="visibility: collapse;">
+            <div class="valor"><label><strong>VALOR BASE: $</strong><asp:Label runat="server" ID="lbValorBase3"></asp:Label></label></div>
+            <div class="servicios">
+                <asp:GridView runat="server" ID="gvServicios3" AutoGenerateColumns="false" ShowHeaderWhenEmpty="true">
+                    <Columns>
+                        <asp:BoundField DataField="ClaveActo" ReadOnly="true" HeaderText="Servicio" ShowHeader="true"  />
+                        <asp:BoundField DataField="NombreActo" ReadOnly="true" HeaderText="Acto" ShowHeader="true"  />
+                        <asp:BoundField DataField="Nombre" ReadOnly="true" HeaderText="Movimiento" ShowHeader="true" />
+                    </Columns>
+                </asp:GridView>
+            </div>
+            <div class="bien">
+                <p>NUEVO TITULAR: <asp:Label runat="server" ID="lbTitular3"> </asp:Label></p>
+                <p>DESCRIPCIÓN: <asp:Label runat="server" ID="lbDescripcion3"> </asp:Label></p>
+            </div>
+            <div class="total">
+                <p><strong>TOTAL: $<asp:Label runat="server" ID="lbTotal3"></asp:Label></strong></p>
+                Fecha de impresión de boleta: <asp:Label runat="server" ID="lbFecha3"> </asp:Label>
+            </div>
+        </div>
+        <div style="visibility: collapse;"><b>REGISTRO PÚBLICO</b></div>
+        
+    </div>
+        -->
     </form>
 </body>
 </html>

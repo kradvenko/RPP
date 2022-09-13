@@ -7,11 +7,13 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace RPP {
-    
-    
-    public partial class Recepcion {
-        
+namespace RPP
+{
+
+
+    public partial class Recepcion
+    {
+
         /// <summary>
         /// Control ScriptManager.
         /// </summary>
@@ -20,7 +22,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.ScriptManager ScriptManager;
-        
+
         /// <summary>
         /// Control txTipoUsuario.
         /// </summary>
@@ -29,7 +31,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txTipoUsuario;
-        
+
         /// <summary>
         /// Control txUsuario.
         /// </summary>
@@ -38,7 +40,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txUsuario;
-        
+
         /// <summary>
         /// Control txPass1.
         /// </summary>
@@ -47,7 +49,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txPass1;
-        
+
         /// <summary>
         /// Control txPass2.
         /// </summary>
@@ -56,7 +58,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txPass2;
-        
+
         /// <summary>
         /// Control btCambiarPass.
         /// </summary>
@@ -65,7 +67,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btCambiarPass;
-        
+
         /// <summary>
         /// Control txNombre.
         /// </summary>
@@ -74,7 +76,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txNombre;
-        
+
         /// <summary>
         /// Control txAPaterno.
         /// </summary>
@@ -83,7 +85,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txAPaterno;
-        
+
         /// <summary>
         /// Control txAMaterno.
         /// </summary>
@@ -92,7 +94,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txAMaterno;
-        
+
         /// <summary>
         /// Control txNacimiento.
         /// </summary>
@@ -101,7 +103,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txNacimiento;
-        
+
         /// <summary>
         /// Control txCURP.
         /// </summary>
@@ -110,7 +112,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txCURP;
-        
+
         /// <summary>
         /// Control txRFC.
         /// </summary>
@@ -119,7 +121,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txRFC;
-        
+
         /// <summary>
         /// Control txTelefono1.
         /// </summary>
@@ -128,7 +130,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txTelefono1;
-        
+
         /// <summary>
         /// Control txTelefono2.
         /// </summary>
@@ -137,7 +139,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txTelefono2;
-        
+
         /// <summary>
         /// Control txControl.
         /// </summary>
@@ -146,7 +148,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txControl;
-        
+
         /// <summary>
         /// Control txCalle.
         /// </summary>
@@ -155,7 +157,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txCalle;
-        
+
         /// <summary>
         /// Control txColonia.
         /// </summary>
@@ -164,7 +166,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txColonia;
-        
+
         /// <summary>
         /// Control txCodigoPostal.
         /// </summary>
@@ -173,7 +175,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txCodigoPostal;
-        
+
         /// <summary>
         /// Control ddlMunicipiosU.
         /// </summary>
@@ -182,7 +184,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlMunicipiosU;
-        
+
         /// <summary>
         /// Control ddlPoblacionesU.
         /// </summary>
@@ -191,7 +193,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlPoblacionesU;
-        
+
         /// <summary>
         /// Control btGuardarCambios.
         /// </summary>
@@ -200,7 +202,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btGuardarCambios;
-        
+
         /// <summary>
         /// Control txFecha.
         /// </summary>
@@ -209,7 +211,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txFecha;
-        
+
         /// <summary>
         /// Control txFolio.
         /// </summary>
@@ -218,7 +220,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txFolio;
-        
+
         /// <summary>
         /// Control ddlTramitantes.
         /// </summary>
@@ -227,7 +229,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlTramitantes;
-        
+
         /// <summary>
         /// Control dNuevoTram.
         /// </summary>
@@ -236,7 +238,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl dNuevoTram;
-        
+
         /// <summary>
         /// Control txNombreT.
         /// </summary>
@@ -245,7 +247,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txNombreT;
-        
+
         /// <summary>
         /// Control txAPaternoT.
         /// </summary>
@@ -254,7 +256,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txAPaternoT;
-        
+
         /// <summary>
         /// Control txAMaternoT.
         /// </summary>
@@ -263,7 +265,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txAMaternoT;
-        
+
         /// <summary>
         /// Control txRazonSocialT.
         /// </summary>
@@ -272,7 +274,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txRazonSocialT;
-        
+
         /// <summary>
         /// Control txCurpT.
         /// </summary>
@@ -281,7 +283,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txCurpT;
-        
+
         /// <summary>
         /// Control txRfcT.
         /// </summary>
@@ -290,7 +292,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txRfcT;
-        
+
         /// <summary>
         /// Control txCalleT.
         /// </summary>
@@ -299,7 +301,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txCalleT;
-        
+
         /// <summary>
         /// Control txNumeroT.
         /// </summary>
@@ -308,7 +310,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txNumeroT;
-        
+
         /// <summary>
         /// Control txColoniaT.
         /// </summary>
@@ -317,7 +319,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txColoniaT;
-        
+
         /// <summary>
         /// Control txCodigoT.
         /// </summary>
@@ -326,7 +328,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txCodigoT;
-        
+
         /// <summary>
         /// Control ddlMunicipioT.
         /// </summary>
@@ -335,7 +337,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlMunicipioT;
-        
+
         /// <summary>
         /// Control ddlPoblacionT.
         /// </summary>
@@ -344,7 +346,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlPoblacionT;
-        
+
         /// <summary>
         /// Control txEstadoT.
         /// </summary>
@@ -353,7 +355,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txEstadoT;
-        
+
         /// <summary>
         /// Control txLNotariaT.
         /// </summary>
@@ -362,7 +364,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txLNotariaT;
-        
+
         /// <summary>
         /// Control txNotariaT.
         /// </summary>
@@ -371,7 +373,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txNotariaT;
-        
+
         /// <summary>
         /// Control txTipoT.
         /// </summary>
@@ -380,7 +382,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txTipoT;
-        
+
         /// <summary>
         /// Control txTelefonoT.
         /// </summary>
@@ -389,7 +391,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txTelefonoT;
-        
+
         /// <summary>
         /// Control txFaxT.
         /// </summary>
@@ -398,7 +400,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txFaxT;
-        
+
         /// <summary>
         /// Control txExtensionT.
         /// </summary>
@@ -407,7 +409,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txExtensionT;
-        
+
         /// <summary>
         /// Control btGuardarT.
         /// </summary>
@@ -416,7 +418,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btGuardarT;
-        
+
         /// <summary>
         /// Control txNombreTitular.
         /// </summary>
@@ -425,7 +427,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txNombreTitular;
-        
+
         /// <summary>
         /// Control txNumeroEscritura.
         /// </summary>
@@ -434,7 +436,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txNumeroEscritura;
-        
+
         /// <summary>
         /// Control txDescripcion.
         /// </summary>
@@ -443,7 +445,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txDescripcion;
-        
+
         /// <summary>
         /// Control txTipoDocto.
         /// </summary>
@@ -452,7 +454,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txTipoDocto;
-        
+
         /// <summary>
         /// Control txFechaOtorg.
         /// </summary>
@@ -461,7 +463,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txFechaOtorg;
-        
+
         /// <summary>
         /// Control txLugarOtorg.
         /// </summary>
@@ -470,7 +472,25 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txLugarOtorg;
-        
+
+        /// <summary>
+        /// Control ddlTipoPago.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlTipoPago;
+
+        /// <summary>
+        /// Control txReferenciaPago.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txReferenciaPago;
+
         /// <summary>
         /// Control ddlLTS.
         /// </summary>
@@ -479,7 +499,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlLTS;
-        
+
         /// <summary>
         /// Control txLT.
         /// </summary>
@@ -488,7 +508,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txLT;
-        
+
         /// <summary>
         /// Control ddlSemestre.
         /// </summary>
@@ -497,7 +517,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlSemestre;
-        
+
         /// <summary>
         /// Control lbASem.
         /// </summary>
@@ -506,7 +526,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl lbASem;
-        
+
         /// <summary>
         /// Control txASem.
         /// </summary>
@@ -515,7 +535,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txASem;
-        
+
         /// <summary>
         /// Control lbSeccion.
         /// </summary>
@@ -524,7 +544,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl lbSeccion;
-        
+
         /// <summary>
         /// Control ddlSeccion.
         /// </summary>
@@ -533,7 +553,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlSeccion;
-        
+
         /// <summary>
         /// Control lbSerie.
         /// </summary>
@@ -542,7 +562,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl lbSerie;
-        
+
         /// <summary>
         /// Control ddlSerie.
         /// </summary>
@@ -551,7 +571,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlSerie;
-        
+
         /// <summary>
         /// Control txPartida.
         /// </summary>
@@ -560,7 +580,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txPartida;
-        
+
         /// <summary>
         /// Control txFolioA.
         /// </summary>
@@ -569,7 +589,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txFolioA;
-        
+
         /// <summary>
         /// Control btAgregarAntecedente.
         /// </summary>
@@ -578,7 +598,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btAgregarAntecedente;
-        
+
         /// <summary>
         /// Control gvAntecedentes.
         /// </summary>
@@ -587,7 +607,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView gvAntecedentes;
-        
+
         /// <summary>
         /// Control ddlActos.
         /// </summary>
@@ -596,7 +616,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlActos;
-        
+
         /// <summary>
         /// Control ddlMovimientos.
         /// </summary>
@@ -605,7 +625,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlMovimientos;
-        
+
         /// <summary>
         /// Control txValorBase.
         /// </summary>
@@ -614,7 +634,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txValorBase;
-        
+
         /// <summary>
         /// Control txRepetir.
         /// </summary>
@@ -623,7 +643,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txRepetir;
-        
+
         /// <summary>
         /// Control btAgregarMovimiento.
         /// </summary>
@@ -632,7 +652,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btAgregarMovimiento;
-        
+
         /// <summary>
         /// Control gvMovimientos.
         /// </summary>
@@ -641,7 +661,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView gvMovimientos;
-        
+
         /// <summary>
         /// Control txMoneda.
         /// </summary>
@@ -650,7 +670,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txMoneda;
-        
+
         /// <summary>
         /// Control txTotal.
         /// </summary>
@@ -659,7 +679,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txTotal;
-        
+
         /// <summary>
         /// Control btGuardarTramite.
         /// </summary>
@@ -668,7 +688,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btGuardarTramite;
-        
+
         /// <summary>
         /// Control txBuscarPrelacion.
         /// </summary>
@@ -677,7 +697,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txBuscarPrelacion;
-        
+
         /// <summary>
         /// Control Button5.
         /// </summary>
@@ -686,7 +706,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button5;
-        
+
         /// <summary>
         /// Control txBFecha.
         /// </summary>
@@ -695,7 +715,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txBFecha;
-        
+
         /// <summary>
         /// Control txBFolio.
         /// </summary>
@@ -704,7 +724,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txBFolio;
-        
+
         /// <summary>
         /// Control ddlBTramitante.
         /// </summary>
@@ -713,7 +733,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlBTramitante;
-        
+
         /// <summary>
         /// Control txBNuevoTitular.
         /// </summary>
@@ -722,7 +742,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txBNuevoTitular;
-        
+
         /// <summary>
         /// Control txBEscritura.
         /// </summary>
@@ -731,7 +751,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txBEscritura;
-        
+
         /// <summary>
         /// Control txBDescripcion.
         /// </summary>
@@ -740,7 +760,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txBDescripcion;
-        
+
         /// <summary>
         /// Control txBTipoDocumento.
         /// </summary>
@@ -749,7 +769,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txBTipoDocumento;
-        
+
         /// <summary>
         /// Control txBFechaOtorgamiento.
         /// </summary>
@@ -758,7 +778,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txBFechaOtorgamiento;
-        
+
         /// <summary>
         /// Control txBLugarOtorgamiento.
         /// </summary>
@@ -767,7 +787,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txBLugarOtorgamiento;
-        
+
         /// <summary>
         /// Control ddlBLTS.
         /// </summary>
@@ -776,7 +796,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlBLTS;
-        
+
         /// <summary>
         /// Control txBLibro.
         /// </summary>
@@ -785,7 +805,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txBLibro;
-        
+
         /// <summary>
         /// Control ddlBSemestre.
         /// </summary>
@@ -794,7 +814,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlBSemestre;
-        
+
         /// <summary>
         /// Control Label1.
         /// </summary>
@@ -803,7 +823,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Label1;
-        
+
         /// <summary>
         /// Control txBASem.
         /// </summary>
@@ -812,7 +832,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txBASem;
-        
+
         /// <summary>
         /// Control Label2.
         /// </summary>
@@ -821,7 +841,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Label2;
-        
+
         /// <summary>
         /// Control ddlBSeccion.
         /// </summary>
@@ -830,7 +850,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlBSeccion;
-        
+
         /// <summary>
         /// Control Label3.
         /// </summary>
@@ -839,7 +859,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Label3;
-        
+
         /// <summary>
         /// Control ddlBSerie.
         /// </summary>
@@ -848,7 +868,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlBSerie;
-        
+
         /// <summary>
         /// Control txBPartida.
         /// </summary>
@@ -857,7 +877,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txBPartida;
-        
+
         /// <summary>
         /// Control txBFolioA.
         /// </summary>
@@ -866,7 +886,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txBFolioA;
-        
+
         /// <summary>
         /// Control Button2.
         /// </summary>
@@ -875,7 +895,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button2;
-        
+
         /// <summary>
         /// Control gvBAntecedentes.
         /// </summary>
@@ -884,7 +904,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView gvBAntecedentes;
-        
+
         /// <summary>
         /// Control Button4.
         /// </summary>
@@ -893,7 +913,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button4;
-        
+
         /// <summary>
         /// Control Button1.
         /// </summary>

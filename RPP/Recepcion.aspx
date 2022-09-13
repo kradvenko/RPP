@@ -21,6 +21,7 @@
         function validy() {
             $('[required]').attr('required', true);
         }
+
     </script>
         
     <asp:ScriptManager ID="ScriptManager" runat="server" EnablePartialRendering="true" />
@@ -178,13 +179,24 @@
                                     <div class="medium-8 large-8 columns"><label>Nuevo Titular:<asp:TextBox ID="txNombreTitular" runat="server" MaxLength="150"></asp:TextBox></label><small class="error">Campo Requerido.</small></div>
                                 </div>
                                 <div class="row">
-                                    <div class="medium-6 large-6 columns"><label>Escritura:<asp:TextBox id="txNumeroEscritura" runat="server" MaxLength="50" ></asp:TextBox></label><small class="error">Campo Requerido.</small></div>
+                                    <div class="medium-6 large-6 columns"><label>Escritura:<asp:TextBox id="txNumeroEscritura" runat="server" MaxLength="50" ClientIDMode="Static"></asp:TextBox></label><small class="error">Campo Requerido.</small></div>
                                     <div class="medium-6 large-6 columns"><label>Descripción del Bien:<asp:TextBox ID="txDescripcion" runat="server" MaxLength="200"></asp:TextBox></label><small class="error">Campo Requerido.</small></div>
                                 </div>
                                 <div class="row">
                                     <div class="medium-3 large-3 columns"><label>Tipo Documento:<asp:TextBox runat="server" ID="txTipoDocto" MaxLength="100"></asp:TextBox></label><small class="error">Campo Requerido.</small></div>
                                     <div class="medium-3 large-3 columns"><label>Fecha Otorgamiento:<asp:TextBox runat="server" ID="txFechaOtorg" ></asp:TextBox></label><small class="error">Campo Requerido.</small></div>
                                     <div class="medium-3 large-3 columns end"><label>Lugar Otorgamiento:<asp:TextBox runat="server" ID="txLugarOtorg" MaxLength="100"></asp:TextBox></label><small class="error">Campo Requerido.</small></div>
+                                </div>
+                                <div class="row">
+                                    <div class="medium-3 large-3 columns"><label>Tipo de pago:
+                                        <asp:DropDownList ID="ddlTipoPago" AutoPostBack="true" runat="server">
+                                            <asp:ListItem Text="Banco" Value="Banco" />
+                                            <asp:ListItem Text="Recaudación" Value="Recaudacion" />
+                                            <asp:ListItem Text="Transferencia" Value="Transferencia" />
+                                        </asp:DropDownList>
+                                        </div>
+                                    <div class="medium-3 large-3 columns"><label>Referencia de pago:<asp:TextBox runat="server" ID="txReferenciaPago" ></asp:TextBox></label></div>
+                                    <div class="medium-3 large-3 columns"></div>
                                 </div>
                             </fieldset>
                             <fieldset>
@@ -418,5 +430,11 @@
     </div>
     <script>
         $(document).foundation();
+        $('#txNumeroEscritura').change(function() {
+            if ($('#txNumeroEscritura').val() == '64521') {
+                alert("El número de escritura no es válido para registro.");
+                $('#txNumeroEscritura').val('');
+            }
+        });
     </script>
 </asp:Content>

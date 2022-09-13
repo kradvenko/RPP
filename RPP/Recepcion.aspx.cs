@@ -172,6 +172,12 @@ namespace RPP
             prelacion.TipoDocumento = txTipoDocto.Text;
             prelacion.TipoMoneda = txMoneda.Text;
             prelacion.FechaDocumento = txFechaOtorg.Text;
+            //NUEVO 22/03/2022
+            Usuario currentUser = (Usuario)Session.Contents["usuario"];
+            prelacion.IdUsuarioCreador = currentUser.IdUsuario.ToString();
+            //NUEVO 18/04/2022
+            prelacion.TipoPago = ddlTipoPago.SelectedValue.ToString();
+            prelacion.ReferenciaPago = txReferenciaPago.Text;
             //agregar Actos.
             prelacion.ActosPrelacion = new List<Movimientos>();
             foreach (DataRow row in Movimientos.Rows)

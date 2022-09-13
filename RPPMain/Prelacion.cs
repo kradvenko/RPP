@@ -33,12 +33,16 @@ namespace RPPMain
         private Movimientos movimiento;
         private String nombreActo;
         private String fechaAsignacion;
+        //03/03/2022
+        private String fechaCreacion;
 
         //Special
         private String repositoryUrl;
         private String nombreRecibe;
         private String numeroDocumento;
         private String partida;
+        private String tipoPago;
+        private String referenciaPago;
         #endregion
 
         public Prelacion()
@@ -368,6 +372,44 @@ namespace RPPMain
             }
         }
 
+        public String FechaCreacion
+        {
+            get
+            {
+                return fechaCreacion;
+            }
+            set
+            {
+                fechaCreacion = value;
+            }
+        }
+
+        public String TipoPago
+        {
+            get
+            {
+                return tipoPago;
+            }
+            set
+            {
+                tipoPago = value;
+            }
+        }
+
+        public String ReferenciaPago
+        {
+            get
+            {
+                return referenciaPago;
+            }
+            set
+            {
+                referenciaPago = value;
+            }
+        }
+
+        public String IdUsuarioCreador { get; set; }
+
         public static String GuardarPrelacionObjeto(Prelacion prelacion)
         {
             SqlConnection con = new SqlConnection(Connection.getConnection());
@@ -377,7 +419,7 @@ namespace RPPMain
             {
                 try
                 {
-                    idPre = prelacion.GuardarNueva(prelacion.idTramitante, prelacion.NombreTitular, prelacion.DescripcionBien, prelacion.NumeroEscritura, prelacion.ValorInmueble, prelacion.Folio, prelacion.Total, prelacion.Status, prelacion.Fecha, prelacion.LugarOtorgamiento, prelacion.TipoDocumento, prelacion.TipoMoneda, prelacion.FechaDocumento);
+                    idPre = prelacion.GuardarNueva(prelacion.idTramitante, prelacion.NombreTitular, prelacion.DescripcionBien, prelacion.NumeroEscritura, prelacion.ValorInmueble, prelacion.Folio, prelacion.Total, prelacion.Status, prelacion.Fecha, prelacion.LugarOtorgamiento, prelacion.TipoDocumento, prelacion.TipoMoneda, prelacion.FechaDocumento, prelacion.IdUsuarioCreador, prelacion.TipoPago, prelacion.ReferenciaPago);
                     if (idPre == 0) { throw new Exception(); }
 
                     foreach (Movimientos item in prelacion.actosprelacion)
@@ -403,11 +445,11 @@ namespace RPPMain
             return idPre.ToString();
         }
 
-        public int GuardarNueva(int IdTramitante, String NombreTitular, String DescripcionBien, String NumeroEscritura, decimal ValorInmueble, String Folio, decimal Total, String Status, String Fecha, String LugarOtorgamiento, String TipoDocumento, String TipoMoneda, String FechaDocumento)
+        public int GuardarNueva(int IdTramitante, String NombreTitular, String DescripcionBien, String NumeroEscritura, decimal ValorInmueble, String Folio, decimal Total, String Status, String Fecha, String LugarOtorgamiento, String TipoDocumento, String TipoMoneda, String FechaDocumento, String IdUsuarioCreador, String TipoPago, String ReferenciaPago)
         {
             SqlConnection con = new SqlConnection(Connection.getConnection());
             con.Open();
-            SqlCommand comm = new SqlCommand("INSERT INTO Prelaciones OUTPUT inserted.id_prelacion VALUES (" + IdTramitante + ", '" + NombreTitular + "', '" + DescripcionBien + "', '" + NumeroEscritura + "', @valorI , '" + Folio + "', @total , '" + Status + "', '" + Fecha + "', '" + LugarOtorgamiento + "', '" + TipoDocumento + "', '" + TipoMoneda + "', '" + FechaDocumento + "', '" + "', '')", con);
+            SqlCommand comm = new SqlCommand("INSERT INTO Prelaciones OUTPUT inserted.id_prelacion VALUES (" + IdTramitante + ", '" + NombreTitular + "', '" + DescripcionBien + "', '" + NumeroEscritura + "', @valorI , '" + Folio + "', @total , '" + Status + "', '" + Fecha + "', '" + LugarOtorgamiento + "', '" + TipoDocumento + "', '" + TipoMoneda + "', '" + FechaDocumento + "', '', '', GETDATE(), '', '', " + IdUsuarioCreador + ", '', '" + TipoPago + "', '" + ReferenciaPago + "', '' )", con);
             comm.Parameters.AddWithValue("@valorI", Convert.ToDecimal(ValorInmueble));
             comm.Parameters.AddWithValue("@total", Convert.ToDecimal(Total));
             int result = (int)comm.ExecuteScalar();
@@ -427,7 +469,7 @@ namespace RPPMain
         {
             SqlConnection con = new SqlConnection(Connection.getConnection());
             con.Open();
-            SqlCommand comm = new SqlCommand("INSERT INTO PrelacionesActos VALUES (" + IdPrelacion + ", " + IdActo + ", " + IdMovimiento + ",'NOREGISTRADA', @importe )", con);
+            SqlCommand comm = new SqlCommand("INSERT INTO PrelacionesActos VALUES (" + IdPrelacion + ", " + IdActo + ", " + IdMovimiento + ",'NOREGISTRADA', @importe, '', '' )", con);
             comm.Parameters.AddWithValue("@importe", Convert.ToDecimal(Importe));
             int result = comm.ExecuteNonQuery();
             if (result > 0)
@@ -467,7 +509,14 @@ namespace RPPMain
 
             SqlConnection con = new SqlConnection(Connection.getConnection());
             con.Open();
-            SqlCommand comm = new SqlCommand("select Usuarios.nombre as Unombre, Usuarios.apellido_paterno as Upaterno, Usuarios.apellido_materno as Umaterno,* from Prelaciones inner join Tramitantes on Prelaciones.id_tramitante=Tramitantes.id_tramitante left join PrelacionesUsuarios on Prelaciones.id_prelacion=PrelacionesUsuarios.id_prelacion left join Usuarios on Usuarios.id_usuario=PrelacionesUsuarios.id_usuario where Prelaciones.estatus LIKE '" + estatus + "' order by Prelaciones.id_prelacion", con);
+            SqlCommand comm = new SqlCommand("select Usuarios.nombre as Unombre, Usuarios.apellido_paterno as Upaterno, Usuarios.apellido_materno as Umaterno, Actos.nombre As Acto, * " +
+                "from Prelaciones " +
+                "inner join Tramitantes on Prelaciones.id_tramitante=Tramitantes.id_tramitante " +
+                "left join PrelacionesUsuarios on Prelaciones.id_prelacion=PrelacionesUsuarios.id_prelacion " +
+                "left join Usuarios on Usuarios.id_usuario=PrelacionesUsuarios.id_usuario " +
+                "Inner Join PrelacionesActos On PrelacionesActos.id_prelacion = Prelaciones.id_prelacion " +
+                "Inner Join Actos On Actos.clave_acto = PrelacionesActos.id_acto " +
+                "where Prelaciones.estatus LIKE '" + estatus + "' order by Prelaciones.id_prelacion", con);
             SqlDataReader reader = comm.ExecuteReader();
             if (reader.HasRows)
             {
@@ -487,6 +536,7 @@ namespace RPPMain
                     pre.IdTramitante = int.Parse(reader["id_tramitante"].ToString());
                     pre.Tramitante = reader["nombre"].ToString() + " " + reader["apellido_paterno"].ToString() + " " + reader["apellido_materno"].ToString();
                     pre.NumeroEscritura = reader["numero_escritura"].ToString();
+                    pre.NombreActo = reader["Acto"].ToString();
                     listaPrelaciones.Add(pre);
                 }
             }
@@ -688,6 +738,7 @@ namespace RPPMain
                     pre.IdTramitante = int.Parse(reader["id_tramitante"].ToString());
                     pre.Tramitante = reader["nombre"].ToString() + " " + reader["apellido_paterno"].ToString() + " " + reader["apellido_materno"].ToString();
                     pre.ObservacionesVerificador = reader["observaciones_verificador"].ToString();
+                    pre.FechaCreacion = reader["fecha_creacion"].ToString();
                 }
             }
             con.Close();
@@ -829,6 +880,43 @@ namespace RPPMain
             con.Close();
             return listaMovimientos;
         }
+
+        public static List<Movimientos> ObtenerMovimientosPrelacionImpresion(int IdPrelacion, String estadoMov)
+        {
+            List<Movimientos> listaMovimientos = new List<Movimientos>();
+            SqlConnection con = new SqlConnection(Connection.getConnection());
+            con.Open();
+            String query = "SELECT Movimientos.nombre, Movimientos.id_acto, Actos.nombre as nombre_acto, COUNT(*) AS Total " +
+                                                "FROM Movimientos " +
+                                                "INNER JOIN Actos ON Actos.clave_acto = Movimientos.id_acto " +
+                                                "INNER JOIN PrelacionesActos ON PrelacionesActos.id_acto = Actos.clave_acto " +
+                                                "WHERE PrelacionesActos.id_prelacion = " + IdPrelacion + " AND PrelacionesActos.id_movimiento = Movimientos.id_movimiento " +
+                                                "GROUP BY Movimientos.nombre, Movimientos.id_acto, Actos.nombre";
+                    
+            SqlCommand comm = new SqlCommand(query, con);
+            SqlDataReader reader = comm.ExecuteReader();
+            if (reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    Movimientos mov = new Movimientos();
+                    Acto act = new Acto();
+                    act.Nombre = reader["nombre_acto"].ToString();
+                    
+                    mov.Acto = act;
+
+                    mov.ClaveActo = int.Parse(reader["id_acto"].ToString());                    
+                    mov.Nombre = reader["nombre"].ToString();
+                    mov.NombreActo = reader["nombre_acto"].ToString();   
+                    mov.Total = reader["Total"].ToString();
+
+                    listaMovimientos.Add(mov);
+                }
+            }
+
+            con.Close();
+            return listaMovimientos;
+        }
         //Función para obtener la lista de antecedentes de una prelación. Estática.
         public static List<Antecedente> ObtenerAntecedentesPrelacion(int IdPrelacion)
         {
@@ -847,6 +935,40 @@ namespace RPPMain
 
                     ant.Año = reader["anio"].ToString();
                     ant.ClaveAntecedente = int.Parse(reader["id_prelacion_antecedente"].ToString());
+                    ant.ClavePrelacion = int.Parse(reader["id_prelacion"].ToString());
+                    ant.Folio = reader["folio"].ToString();
+                    ant.Libro = reader["libro"].ToString();
+                    ant.Partida = reader["partida"].ToString();
+                    ant.Seccion = reader["seccion"].ToString();
+                    ant.Semestre = reader["semestre"].ToString();
+                    ant.Serie = reader["serie"].ToString();
+                    ant.Tomo = reader["tomo"].ToString();
+
+                    listaAntecedentes.Add(ant);
+                }
+            }
+
+            con.Close();
+            return listaAntecedentes;
+        }
+        //Función para obtener la lista de antecedentes de una prelación v2. Estática.
+        public static List<Antecedente> ObtenerAntecedentesPrelacionImpresion(int IdPrelacion)
+        {
+            List<Antecedente> listaAntecedentes = new List<Antecedente>();
+            SqlConnection con = new SqlConnection(Connection.getConnection());
+            con.Open();
+            SqlCommand comm = new SqlCommand("SELECT anio, id_prelacion, folio, libro, partida, seccion, semestre, serie, tomo, COUNT(*) AS Total " +
+                                                "FROM PrelacionesAntecedentes " +
+                                                "WHERE PrelacionesAntecedentes.id_prelacion = " + IdPrelacion + " " +
+                                                "GROUP BY anio, id_prelacion, folio, libro, partida, seccion, semestre, serie, tomo", con);
+            SqlDataReader reader = comm.ExecuteReader();
+            if (reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    Antecedente ant = new Antecedente();
+
+                    ant.Año = reader["anio"].ToString();
                     ant.ClavePrelacion = int.Parse(reader["id_prelacion"].ToString());
                     ant.Folio = reader["folio"].ToString();
                     ant.Libro = reader["libro"].ToString();

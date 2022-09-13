@@ -191,9 +191,9 @@ input[type="checkbox"]+label, input[type="radio"]+label{
     display:inline-block;
 }
     .head > div.gob {
-        margin-left:85px;
-        margin-right:20px;
-        margin-top:10px;
+        margin-left:0px;
+        margin-right:0px;
+        margin-top:0px;
         text-align:center;
     }
     .head > div > p , .desc > div  p{
@@ -217,7 +217,12 @@ input[type="checkbox"]+label, input[type="radio"]+label{
 #gvServicios tr > th, #gvServicios tr > td,
 #gvCostos tr > th, #gvCostos tr > td,
 #gvAntecedentes2 tr > th, #gvAntecedentes2 tr > td,
-#gvServicios2 tr > th, #gvServicios2 tr > td{font-size:.9em;padding: .1rem .3rem;}
+#gvServicios2 tr > th, #gvServicios2 tr > td,
+#gvAntecedentes3 tr > th, #gvAntecedentes3 tr > td,
+#gvServicios3 tr > th, #gvServicios3 tr > td {
+    font-size: .9em;
+    padding: .1rem .3rem;
+}
 
 .reng {border-top: 1px solid #000; padding-top:10px;}
 .descripcion > p{
