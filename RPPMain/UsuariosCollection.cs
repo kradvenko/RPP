@@ -59,7 +59,7 @@ namespace RPPMain
             con.Open();
 
             SqlCommand comm = new SqlCommand("select * from Usuarios inner join TipoUsuarios on Usuarios.id_tipo_usuario=TipoUsuarios.id_tipo_usuario"+
-                                            "  where tipo='registrador' or TipoUsuarios.id_tipo_usuario='4'", con);
+                                            "  where tipo='registrador' or (TipoUsuarios.id_tipo_usuario='4' or TipoUsuarios.id_tipo_usuario = '2008')", con);
             SqlDataReader reader = comm.ExecuteReader();
 
             if (reader.HasRows)
