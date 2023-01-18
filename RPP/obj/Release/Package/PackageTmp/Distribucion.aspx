@@ -117,6 +117,34 @@
                 <asp:UpdatePanel runat="server">
                     <ContentTemplate>
                         <fieldset>
+                            <legend>Sin Asignar</legend>
+                            <div class="row">
+                                <div class="medium-8 large-8 columns lista">
+                                    <label runat="server" id="Label1"></label>
+                                    <label>Prelaciones
+                                        <div class="scroll">
+                                            <asp:DropDownList ID="ddlPrelacionesSinAsignar" runat="server" AutoPostBack="true"></asp:DropDownList>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="medium-4 large-4 columns lista">
+                                    <label>Asignar a:
+                                        <div class="scroll users">
+                                            <asp:DropDownList ID="ddlUsuariosAsignar" runat="server" AutoPostBack="true"></asp:DropDownList>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="medium-9 large-9 columns" ><br /></div>
+                                <div class="medium-3 large-3 columns"><asp:Button ID="btnAsignar2" runat="server" Text="Asignar" CssClass="button" OnClick="btnAsignar2_Click"/></div>
+                            </div>
+                        </fieldset>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+                <asp:UpdatePanel runat="server">
+                    <ContentTemplate>
+                        <fieldset>
                             <legend>Asignadas</legend>
                             <div class="row">
                                 <div class="medium-7 large-7 columns">
