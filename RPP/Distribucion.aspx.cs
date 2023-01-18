@@ -74,6 +74,7 @@ namespace RPP
             rbUsuarios.Items.Clear();
             rbUsuarios2.Items.Clear();
             ddlUsuarios.Items.Clear();
+            ddlPrelacionesSinAsignar.Items.Clear();
             ListItem item = new ListItem();
             item.Text = "Todos los Usuarios";
             item.Value = "0";
@@ -96,6 +97,12 @@ namespace RPP
                 item.Text = "<b>" + var.IdPrelacion.ToString() + "</b> |" + var.NombreActo;
                 item.Value = var.IdPrelacion.ToString();
                 cbSinAsignar.Items.Add(item);
+
+                ListItem item2 = new ListItem();
+                item2.Text = var.IdPrelacion.ToString() + " | " + var.NombreActo;
+                item2.Value = var.IdPrelacion.ToString();
+
+                ddlPrelacionesSinAsignar.Items.Add(item2);
             }
             /*
             //Llenar el CheckBoxList de Prelaciones Asignadas
@@ -120,6 +127,7 @@ namespace RPP
                 ddlUsuarios.Items.Add(item);
                 rbUsuarios.Items.Add(item);
                 rbUsuarios2.Items.Add(item);
+                ddlUsuariosAsignar.Items.Add(item);
             }
             
         }
@@ -247,6 +255,7 @@ namespace RPP
                 foreach (ListItem item in selectedP)
                 {
                     pre.GuardarNuevaPrelacionUsuario(int.Parse(item.Value), int.Parse(usuario), "ASIGNADA:" + DateTime.Now + ";");
+
                     Prelacion.CambiarEstadoPrelacion("ASIGNADA", int.Parse(item.Value));
                 }
                 limpiarListas();
@@ -331,6 +340,31 @@ namespace RPP
         protected void cbSinAsignar_SelectedIndexChanged(object sender, EventArgs e)
         {
             
+        }
+
+        protected void btnAsignar2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Prelacion pre = new Prelacion();
+                String idprelacion = ddlPrelacionesSinAsignar.SelectedValue.ToString();
+
+                String usuario = ddlUsuariosAsignar.SelectedValue.ToString();
+
+                pre.GuardarNuevaPrelacionUsuario(int.Parse(idprelacion), int.Parse(usuario), "ASIGNADA:" + DateTime.Now + ";");
+
+                Prelacion.CambiarEstadoPrelacion("ASIGNADA", int.Parse(idprelacion));
+
+                limpiarListas();
+                cargarListas();
+
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Prelaciones Asignadas Correctamente')", true);
+
+            }
+            catch (Exception exc)
+            { 
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Error: " + exc.Message + " ')", true);
+            }
         }
     }
 }

@@ -9,3 +9,9 @@ C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\obj\Release\RPPMain.csproj
 C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\obj\Release\RPPMain.csproj.CoreCompileInputs.cache
 C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\obj\Release\RPPMain.dll
 C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPPMain\obj\Release\RPPMain.pdb
+C:\Users\Sistemas\Documents\GitHub\RPP\RPPMain\bin\Release\RPPMain.dll
+C:\Users\Sistemas\Documents\GitHub\RPP\RPPMain\bin\Release\RPPMain.pdb
+C:\Users\Sistemas\Documents\GitHub\RPP\RPPMain\obj\Release\RPPMain.csproj.AssemblyReference.cache
+C:\Users\Sistemas\Documents\GitHub\RPP\RPPMain\obj\Release\RPPMain.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas\Documents\GitHub\RPP\RPPMain\obj\Release\RPPMain.dll
+C:\Users\Sistemas\Documents\GitHub\RPP\RPPMain\obj\Release\RPPMain.pdb

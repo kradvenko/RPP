@@ -7,11 +7,13 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace RPP {
-    
-    
-    public partial class Distribucion {
-        
+namespace RPP
+{
+
+
+    public partial class Distribucion
+    {
+
         /// <summary>
         /// Control ScriptManager.
         /// </summary>
@@ -20,7 +22,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.ScriptManager ScriptManager;
-        
+
         /// <summary>
         /// Control txTipoUsuario.
         /// </summary>
@@ -29,7 +31,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txTipoUsuario;
-        
+
         /// <summary>
         /// Control txUsuario.
         /// </summary>
@@ -38,7 +40,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txUsuario;
-        
+
         /// <summary>
         /// Control txPass1.
         /// </summary>
@@ -47,7 +49,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txPass1;
-        
+
         /// <summary>
         /// Control txPass2.
         /// </summary>
@@ -56,7 +58,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txPass2;
-        
+
         /// <summary>
         /// Control btCambiarPass.
         /// </summary>
@@ -65,7 +67,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btCambiarPass;
-        
+
         /// <summary>
         /// Control txNombre.
         /// </summary>
@@ -74,7 +76,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txNombre;
-        
+
         /// <summary>
         /// Control txAPaterno.
         /// </summary>
@@ -83,7 +85,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txAPaterno;
-        
+
         /// <summary>
         /// Control txAMaterno.
         /// </summary>
@@ -92,7 +94,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txAMaterno;
-        
+
         /// <summary>
         /// Control txNacimiento.
         /// </summary>
@@ -101,7 +103,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txNacimiento;
-        
+
         /// <summary>
         /// Control txCURP.
         /// </summary>
@@ -110,7 +112,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txCURP;
-        
+
         /// <summary>
         /// Control txRFC.
         /// </summary>
@@ -119,7 +121,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txRFC;
-        
+
         /// <summary>
         /// Control txTelefono1.
         /// </summary>
@@ -128,7 +130,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txTelefono1;
-        
+
         /// <summary>
         /// Control txTelefono2.
         /// </summary>
@@ -137,7 +139,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txTelefono2;
-        
+
         /// <summary>
         /// Control txControl.
         /// </summary>
@@ -146,7 +148,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txControl;
-        
+
         /// <summary>
         /// Control txCalle.
         /// </summary>
@@ -155,7 +157,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txCalle;
-        
+
         /// <summary>
         /// Control txColonia.
         /// </summary>
@@ -164,7 +166,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txColonia;
-        
+
         /// <summary>
         /// Control txCodigoPostal.
         /// </summary>
@@ -173,7 +175,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txCodigoPostal;
-        
+
         /// <summary>
         /// Control ddlMunicipiosU.
         /// </summary>
@@ -182,7 +184,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlMunicipiosU;
-        
+
         /// <summary>
         /// Control ddlPoblacionesU.
         /// </summary>
@@ -191,7 +193,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlPoblacionesU;
-        
+
         /// <summary>
         /// Control btGuardarCambios.
         /// </summary>
@@ -200,7 +202,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btGuardarCambios;
-        
+
         /// <summary>
         /// Control lblContador.
         /// </summary>
@@ -209,7 +211,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblContador;
-        
+
         /// <summary>
         /// Control cbSinAsignar.
         /// </summary>
@@ -218,7 +220,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBoxList cbSinAsignar;
-        
+
         /// <summary>
         /// Control rbUsuarios.
         /// </summary>
@@ -227,7 +229,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButtonList rbUsuarios;
-        
+
         /// <summary>
         /// Control btAsignar.
         /// </summary>
@@ -236,7 +238,43 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btAsignar;
-        
+
+        /// <summary>
+        /// Control Label1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Label1;
+
+        /// <summary>
+        /// Control ddlPrelacionesSinAsignar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlPrelacionesSinAsignar;
+
+        /// <summary>
+        /// Control ddlUsuariosAsignar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlUsuariosAsignar;
+
+        /// <summary>
+        /// Control btnAsignar2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAsignar2;
+
         /// <summary>
         /// Control ddlUsuarios.
         /// </summary>
@@ -245,7 +283,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlUsuarios;
-        
+
         /// <summary>
         /// Control Button3.
         /// </summary>
@@ -254,7 +292,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button3;
-        
+
         /// <summary>
         /// Control UpdateProgress1.
         /// </summary>
@@ -263,7 +301,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.UpdateProgress UpdateProgress1;
-        
+
         /// <summary>
         /// Control cbAsignadas.
         /// </summary>
@@ -272,7 +310,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBoxList cbAsignadas;
-        
+
         /// <summary>
         /// Control rbUsuarios2.
         /// </summary>
@@ -281,7 +319,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButtonList rbUsuarios2;
-        
+
         /// <summary>
         /// Control btCambios.
         /// </summary>
@@ -290,7 +328,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btCambios;
-        
+
         /// <summary>
         /// Control txFechaInicio.
         /// </summary>
@@ -299,7 +337,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txFechaInicio;
-        
+
         /// <summary>
         /// Control txFechaFin.
         /// </summary>
@@ -308,7 +346,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txFechaFin;
-        
+
         /// <summary>
         /// Control Button1.
         /// </summary>
@@ -317,7 +355,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-        
+
         /// <summary>
         /// Control txReimprimir.
         /// </summary>
@@ -326,7 +364,7 @@ namespace RPP {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txReimprimir;
-        
+
         /// <summary>
         /// Control Button2.
         /// </summary>

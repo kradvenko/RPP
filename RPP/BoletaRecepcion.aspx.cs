@@ -47,7 +47,7 @@ namespace RPP
             lbFecha2.Text = DateTime.Today.ToShortDateString() + " " + DateTime.Now.ToShortTimeString();
             //lbFecha2.Text = DateTime.Today.ToShortDateString();
             //lbHora2.Text = DateTime.Now.ToShortTimeString();
-            lbPrelacion2.Text = prelacionId.ToString();
+            lbPrelacion2.Text = prelacionId.ToString();            
             gvAntecedentes2.DataSource = Prelacion.ObtenerAntecedentesPrelacion(prelacionId);            
             gvAntecedentes2.DataBind();
             lbUsuario2.Text = currentUser.Nombre + " " + currentUser.ApellidoPaterno + " " + currentUser.ApellidoMaterno;
@@ -72,7 +72,10 @@ namespace RPP
             //lbFecha2.Text = DateTime.Today.ToShortDateString();
             //lbHora2.Text = DateTime.Now.ToShortTimeString();
             lbPrelacion3.Text = prelacionId.ToString();
-            lbCreacion3.Text = pre.FechaCreacion;
+            lbCreacion3.Text = pre.FechaCreacion.Substring(0, 10) + " <br />" + pre.FechaCreacion.Substring(11);
+
+            lbPrelacion4.Text = prelacionId.ToString();
+            lbCreacion4.Text = pre.FechaCreacion.Substring(0, 10) + " <br />" + pre.FechaCreacion.Substring(11);
             /*
             gvAntecedentes3.DataSource = Prelacion.ObtenerAntecedentesPrelacion(prelacionId);
             gvAntecedentes3.DataBind();            

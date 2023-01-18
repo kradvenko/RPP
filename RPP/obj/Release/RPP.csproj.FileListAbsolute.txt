@@ -26,3 +26,15 @@ C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\obj\Release\RPP.csproj.CoreCom
 C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\obj\Release\RPP.csproj.CopyComplete
 C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\obj\Release\RPP.dll
 C:\Users\kradv\OneDrive\Documentos\GitHub\RPP\RPP\obj\Release\RPP.pdb
+C:\Users\Sistemas\Documents\GitHub\RPP\RPP\bin\RPP.dll.config
+C:\Users\Sistemas\Documents\GitHub\RPP\RPP\bin\RPP.dll
+C:\Users\Sistemas\Documents\GitHub\RPP\RPP\bin\RPP.pdb
+C:\Users\Sistemas\Documents\GitHub\RPP\RPP\bin\RPPMain.dll
+C:\Users\Sistemas\Documents\GitHub\RPP\RPP\bin\RPPSharePoint.dll
+C:\Users\Sistemas\Documents\GitHub\RPP\RPP\bin\RPPSharePoint.pdb
+C:\Users\Sistemas\Documents\GitHub\RPP\RPP\bin\RPPMain.pdb
+C:\Users\Sistemas\Documents\GitHub\RPP\RPP\obj\Release\RPP.csproj.AssemblyReference.cache
+C:\Users\Sistemas\Documents\GitHub\RPP\RPP\obj\Release\RPP.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas\Documents\GitHub\RPP\RPP\obj\Release\RPP.csproj.CopyComplete
+C:\Users\Sistemas\Documents\GitHub\RPP\RPP\obj\Release\RPP.dll
+C:\Users\Sistemas\Documents\GitHub\RPP\RPP\obj\Release\RPP.pdb
