@@ -42,6 +42,15 @@ namespace RPP
         protected global::System.Web.UI.WebControls.Label lbCreacion2;
 
         /// <summary>
+        /// Control imgCodeBar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgCodeBar;
+
+        /// <summary>
         /// Control lbUsuario2.
         /// </summary>
         /// <remarks>
@@ -202,6 +211,15 @@ namespace RPP
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lbCreacion;
+
+        /// <summary>
+        /// Control Image1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image Image1;
 
         /// <summary>
         /// Control lbUsuario.

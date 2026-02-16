@@ -5,17 +5,33 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using RPPMain;
+using Spire.Barcode;
 
 namespace RPP
 {
     public partial class BoletaRecepcion : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
+        {           
+
             //obtener el usuario que tiene la sesion
             Usuario currentUser = (Usuario)Session.Contents["usuario"];
             //obtener id_prelacion de la session 
             int prelacionId = int.Parse(Session["IDPRELACION"].ToString());
+            
+            BarcodeSettings settings = new BarcodeSettings();
+
+            settings.Type = BarCodeType.Code39;
+            settings.Data = prelacionId.ToString();
+
+            BarCodeGenerator generator = new BarCodeGenerator(settings);
+            System.Drawing.Image barcode = generator.GenerateImage();
+
+            String filePath = Server.MapPath("~/Imgs/");
+
+            barcode.Save(filePath + "barcode.png");
+
+            
             //int prelacionId = 2;
             //lbFecha.Text = DateTime.Today.ToShortDateString();
             lbFecha.Text = DateTime.Today.ToShortDateString() + " " + DateTime.Now.ToShortTimeString();
@@ -25,7 +41,7 @@ namespace RPP
             gvAntecedentes.DataBind();
             Prelacion pre = Prelacion.PrelacionPorId(prelacionId);
             //lbFecha.Text = pre.Fecha.ToString();
-            lbUsuario.Text = currentUser.Nombre+" " +currentUser.ApellidoPaterno +" " + currentUser.ApellidoMaterno;
+            lbUsuario.Text = currentUser.Nombre + " " + currentUser.ApellidoPaterno + " " + currentUser.ApellidoMaterno;
             lbTramitante.Text = pre.Tramitante;
             lbTitular.Text = pre.NombreTitular;
             lbDescripcion.Text = pre.DescripcionBien;
@@ -43,6 +59,22 @@ namespace RPP
             gvCostos.DataSource = Prelacion.ObtenerCostosPrelacion(prelacionId);
             gvCostos.DataBind();
             lbTotal.Text = pre.Total.ToString();
+
+            //Barcode
+            
+            /*
+            BarcodeSettings bs = new BarcodeSettings();
+
+            bs.Type = BarCodeType.Code39;
+            bs.Data = "*ABC 12345* ";
+
+            BarCodeGenerator bg = new BarCodeGenerator(bs);
+
+            System.Drawing.Image barcode = bg.GenerateImage();
+            barcode.Save("barcode.png");
+            //System.Diagnostics.Process.Start("Code39Code.png");
+
+            */
 
             lbFecha2.Text = DateTime.Today.ToShortDateString() + " " + DateTime.Now.ToShortTimeString();
             //lbFecha2.Text = DateTime.Today.ToShortDateString();

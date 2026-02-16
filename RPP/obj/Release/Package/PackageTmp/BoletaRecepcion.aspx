@@ -25,21 +25,19 @@
         <div class="boleta">
         <div class="head">            
             <div class="gob">
-                <table style="margin: 0px !important; padding: 0px !important;">
+                <table style="margin: 0px !important; padding: 0px !important;">                    
                     <tbody>
                         <tr>
-                            <td rowspan="2">
-                                <img src="Imgs/logo-gobierno.png" width="50" height="50" />
+                            <td width="30%" rowspan="2">
+                                <img src="Imgs/logo2024h.png" width="180" height="180" />
                             </td>
-                            <td>
-                                GOBIERNO DEL ESTADO DE NAYARIT
-                                <br />
-                                Registro Público de la Propiedad y Comercio
-                                <p>BOLETA DE INGRESO</p>
-                            </td>
-                            <td rowspan="2">
+                            <td width="40%" rowspan="2">
+                                BOLETA DE INGRESO
                                 <strong style="font-size: 1.2em;">PRELACIÓN: <asp:Label runat="server" ID="lbPrelacion2"> </asp:Label>  </strong>
                                 <p style="font-size: 1.2em;">Fecha:<asp:Label runat="server" ID="lbCreacion2" Visible="true"> </asp:Label></p>
+                            </td>
+                            <td width="30%" rowspan="2">
+                                <asp:Image runat="server" ID="imgCodeBar" ImageUrl="Imgs/barcode.png" />
                             </td>
                         </tr>
                     </tbody>
@@ -85,7 +83,7 @@
                 </asp:GridView>
             </div>
             <div class="bien">
-                <p>NUEVO TITULAR: <asp:Label runat="server" ID="lbTitular2"> </asp:Label></p>
+                <p>SOLICITANTE: <asp:Label runat="server" ID="lbTitular2"> </asp:Label></p>
                 <p>DESCRIPCIÓN: <asp:Label runat="server" ID="lbDescripcion2"> </asp:Label></p>
             </div>
             <div class="total">
@@ -109,12 +107,12 @@
                     <thead>
                         <tr>
                             <td rowspan="2">
-                                <img src="Imgs/logo-gobierno.png" width="150" height="150" />
+                                <img src="Imgs/logo2021e.png" width="150" height="150" />
                             </td>
                             <td>
                                 GOBIERNO DEL ESTADO DE NAYARIT
                                 <br />
-                                Registro Público de la Propiedad y Comercio
+                                Registro Público del Estado
                                 <p>BOLETA DE INGRESO</p>
                             </td>
                             <td rowspan="2">
@@ -141,12 +139,12 @@
                     <thead>
                         <tr>
                             <td rowspan="2">
-                                <img src="Imgs/logo-gobierno.png" width="150" height="150" />
+                                <img src="Imgs/logo2021e.png" width="150" height="150" />
                             </td>
                             <td>
                                 GOBIERNO DEL ESTADO DE NAYARIT
                                 <br />
-                                Registro Público de la Propiedad y Comercio
+                                Registro Público del Estado
                                 <p>BOLETA DE INGRESO</p>
                             </td>
                             <td rowspan="2">
@@ -173,21 +171,19 @@
         <div class="boleta">
         <div class="head">            
             <div class="gob">
-                <table style="margin: 10px !important; padding: 100px !important;">
+                <table style="margin: 0px !important; padding: 0px !important;">
                     <tbody>
                         <tr>
-                            <td rowspan="2">
-                                <img src="Imgs/logo-gobierno.png" width="50" height="50" />
+                            <td width="30%" rowspan="2">
+                                <img src="Imgs/logo2024h.png" width="180" height="180" />
                             </td>
-                            <td>
-                                GOBIERNO DEL ESTADO DE NAYARIT
-                                <br />
-                                Registro Público de la Propiedad y Comercio
-                                <p>BOLETA DE INGRESO</p>
-                            </td>
-                            <td rowspan="2">
+                            <td width="40%" rowspan="2">
+                                BOLETA DE INGRESO
                                 <strong style="font-size: 1.2em;">PRELACIÓN: <asp:Label runat="server" ID="lbPrelacion"> </asp:Label>  </strong>
                                 <p style="font-size: 1.2em;">Fecha:<asp:Label runat="server" ID="lbCreacion" Visible="true"> </asp:Label></p>
+                            </td>
+                            <td width="30%" rowspan="2">
+                                <asp:Image runat="server" ID="Image1" ImageUrl="Imgs/barcode.png" />
                             </td>
                         </tr>
                     </tbody>
@@ -234,7 +230,7 @@
                 </asp:GridView>
             </div>
             <div class="bien">
-                <p>NUEVO TITULAR: <asp:Label runat="server" ID="lbTitular"> </asp:Label></p>
+                <p>SOLICITANTE: <asp:Label runat="server" ID="lbTitular"> </asp:Label></p>
                 <p>DESCRIPCIÓN: <asp:Label runat="server" ID="lbDescripcion"> </asp:Label></p>
             </div>
             <div class="costos">
@@ -295,7 +291,7 @@
                 </asp:GridView>
             </div>
             <div class="bien">
-                <p>NUEVO TITULAR: <asp:Label runat="server" ID="lbTitular3"> </asp:Label></p>
+                <p>SOLICITANTE: <asp:Label runat="server" ID="lbTitular3"> </asp:Label></p>
                 <p>DESCRIPCIÓN: <asp:Label runat="server" ID="lbDescripcion3"> </asp:Label></p>
             </div>
             <div class="total">

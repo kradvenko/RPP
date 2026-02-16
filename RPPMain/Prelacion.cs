@@ -449,7 +449,7 @@ namespace RPPMain
         {
             SqlConnection con = new SqlConnection(Connection.getConnection());
             con.Open();
-            SqlCommand comm = new SqlCommand("INSERT INTO Prelaciones OUTPUT inserted.id_prelacion VALUES (" + IdTramitante + ", '" + NombreTitular + "', '" + DescripcionBien + "', '" + NumeroEscritura + "', @valorI , '" + Folio + "', @total , '" + Status + "', '" + Fecha + "', '" + LugarOtorgamiento + "', '" + TipoDocumento + "', '" + TipoMoneda + "', '" + FechaDocumento + "', '', '', GETDATE(), '', '', " + IdUsuarioCreador + ", '', '" + TipoPago + "', '" + ReferenciaPago + "', '', '' )", con);
+            SqlCommand comm = new SqlCommand("INSERT INTO Prelaciones OUTPUT inserted.id_prelacion VALUES (" + IdTramitante + ", '" + NombreTitular + "', '" + DescripcionBien + "', '" + NumeroEscritura + "', @valorI , '" + Folio + "', @total , '" + Status + "', '" + Fecha + "', '" + LugarOtorgamiento + "', '" + TipoDocumento + "', '" + TipoMoneda + "', '" + FechaDocumento + "', '', '', GETDATE(), '', '', " + IdUsuarioCreador + ", '', '" + TipoPago + "', '" + ReferenciaPago + "', '', '', '', '', '', '', 0, '')", con);
             comm.Parameters.AddWithValue("@valorI", Convert.ToDecimal(ValorInmueble));
             comm.Parameters.AddWithValue("@total", Convert.ToDecimal(Total));
             int result = (int)comm.ExecuteScalar();

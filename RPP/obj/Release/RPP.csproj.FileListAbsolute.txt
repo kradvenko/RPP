@@ -38,3 +38,5 @@ C:\Users\Sistemas\Documents\GitHub\RPP\RPP\obj\Release\RPP.csproj.CoreCompileInp
 C:\Users\Sistemas\Documents\GitHub\RPP\RPP\obj\Release\RPP.csproj.CopyComplete
 C:\Users\Sistemas\Documents\GitHub\RPP\RPP\obj\Release\RPP.dll
 C:\Users\Sistemas\Documents\GitHub\RPP\RPP\obj\Release\RPP.pdb
+C:\Users\Sistemas\Documents\GitHub\RPP\RPP\bin\Spire.Barcode.dll
+C:\Users\Sistemas\Documents\GitHub\RPP\RPP\bin\Spire.Barcode.xml

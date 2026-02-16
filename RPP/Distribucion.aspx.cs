@@ -47,6 +47,10 @@ namespace RPP
                             break;
                     }
                 }
+                if (currentUser.IdUsuario != 5091)
+                {
+                    Response.Redirect("Recepcion.aspx");
+                }
             }
             #endregion
 
